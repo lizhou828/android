@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView android:id="@+id/option_menu_text_view"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="请点击您手机的菜单键，显示选项菜单"
+            />
+</LinearLayout>

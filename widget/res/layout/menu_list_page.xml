@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <Button android:id="@+id/option_menu_button"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="选项菜单"
+            />
+    <Button android:id="@+id/option_menu_button_custom"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="选项菜单( AlertDialog + GridView 实现)"
+            />
+
+    <Button android:id="@+id/context_menu_button"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="上下文菜单"
+            />
+
+    <Button android:id="@+id/sub_menu_button"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="子菜单菜单"
+            />
+</LinearLayout>

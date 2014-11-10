@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        <!--android:orientation="vertical" 意思是垂直布局，水平布局的话是horizontal-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <CheckBox android:id="@+id/plain_cb"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:text="plain"/>
+
+    <CheckBox android:id="@+id/bold_cb"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:text="Bold"
+              android:textStyle="bold"
+            />
+    <CheckBox android:id="@+id/serif_cb"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:text="Serif"
+              android:typeface="serif"
+            />
+    <CheckBox android:id="@+id/italic_cb"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:text="Italic"
+              android:textStyle="italic"
+            />
+    <Button android:id="@+id/get_check_box_value_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="获取CheckBox里面的值"
+    />
+</LinearLayout>

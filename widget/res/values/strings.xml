@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoneyNote</string>
+    <string name="welcome_words">Hello World, MyActivity</string>
+    <string name="explanation">
+        This is my first Android app-MoneyNote !  author:liz Email:lizhou828@126.com
+    </string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="frame_layout_demo_words">Hello ,this is  a FrameLayout demo page！</string>
+    <string name="all_country">请选择国家</string>
+
+
+</resources>
