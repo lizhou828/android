@@ -18,7 +18,7 @@
     <Button android:id="@+id/context_menu_button"
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
-            android:text="上下文菜单"
+            android:text="上下文菜单(含ListView)"
             />
 
     <Button android:id="@+id/sub_menu_button"

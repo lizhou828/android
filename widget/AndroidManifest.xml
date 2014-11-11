@@ -33,6 +33,9 @@
         <activity android:name="OptionMenuActivity"></activity>
         <activity android:name="MenuListPageActivity"></activity>
         <activity android:name="OptionMenuCustomActivity"></activity>
+
+        <activity android:name="ContextMenuActivity"></activity>
+
     </application>
 
     <uses-permission android:name="android.permission.CAll_PHONE"/>

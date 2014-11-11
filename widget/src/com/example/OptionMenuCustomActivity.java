@@ -26,7 +26,7 @@ public class OptionMenuCustomActivity extends Activity {
     View menuView;
     AlertDialog menuDialog; //menu菜单Dialog
     GridView menuGrid;
-    private boolean isMore = false;//menu菜单翻页控制
+    private boolean isMore = true;//menu菜单翻页控制
 
     private final int ITEM_SEARCH = 0;// 搜索
     private final int ITEM_FILE_MANAGER = 1;// 文件管理
