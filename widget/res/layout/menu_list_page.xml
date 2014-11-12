@@ -7,7 +7,7 @@
     <Button android:id="@+id/option_menu_button"
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
-            android:text="选项菜单"
+            android:text="选项菜单(无顺序、无组别菜单)"
             />
     <Button android:id="@+id/option_menu_button_custom"
             android:layout_height="wrap_content"
@@ -18,12 +18,12 @@
     <Button android:id="@+id/context_menu_button"
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
-            android:text="上下文菜单(含ListView)"
+            android:text="上下文菜单(类似PC的右键)ListView页面"
             />
 
     <Button android:id="@+id/sub_menu_button"
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
-            android:text="子菜单菜单"
+            android:text="子菜单(类似微信公众号菜单)"
             />
 </LinearLayout>

@@ -62,7 +62,7 @@ public class ContextMenuActivity extends ListActivity {
         //AdapterContextMenuInfo info = (AdapterContextMenuInfo)item.getMenuInfo();
         //Log.i("braincol",String.valueOf(info.id));
         AdapterView.AdapterContextMenuInfo menuInfo = (AdapterView.AdapterContextMenuInfo)item.getMenuInfo();
-            item.getTitleCondensed()
+
         switch(item.getItemId()){
 
             case ITEM1:

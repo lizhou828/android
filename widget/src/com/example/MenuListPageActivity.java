@@ -71,7 +71,9 @@ public class MenuListPageActivity extends Activity {
         subMenuButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //To change body of implemented methods use File | Settings | File Templates.
+                Intent intent = new Intent();
+                intent.setClass( MenuListPageActivity.this,SubMenuActivity.class);
+                startActivity(intent);
             }
         });
     }

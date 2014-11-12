@@ -167,12 +167,13 @@ public final class R {
         public static final int spinner_button=0x7f060023;
         public static final int spinner_city=0x7f060042;
         public static final int sub_menu_button=0x7f060030;
+        public static final int sub_menu_text_view=0x7f060043;
         public static final int switcher=0x7f060016;
         public static final int tab_button=0x7f06002b;
-        public static final int tab_view_1=0x7f060043;
-        public static final int tab_view_2=0x7f060044;
-        public static final int tab_view_3=0x7f060045;
-        public static final int text_view=0x7f060046;
+        public static final int tab_view_1=0x7f060044;
+        public static final int tab_view_2=0x7f060045;
+        public static final int tab_view_3=0x7f060046;
+        public static final int text_view=0x7f060047;
         public static final int text_view_button=0x7f060020;
         public static final int text_view_city=0x7f060041;
         public static final int time_pick_dialog=0x7f06000e;
@@ -203,8 +204,9 @@ public final class R {
         public static final int rating_bar=0x7f030014;
         public static final int seek_bar=0x7f030015;
         public static final int spinner=0x7f030016;
-        public static final int tab_demo=0x7f030017;
-        public static final int text_view=0x7f030018;
+        public static final int sub_menu=0x7f030017;
+        public static final int tab_demo=0x7f030018;
+        public static final int text_view=0x7f030019;
     }
     public static final class string {
         public static final int all_country=0x7f050006;

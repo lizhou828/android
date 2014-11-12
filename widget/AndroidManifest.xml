@@ -35,6 +35,8 @@
         <activity android:name="OptionMenuCustomActivity"></activity>
 
         <activity android:name="ContextMenuActivity"></activity>
+        <activity android:name="SubMenuActivity"></activity>
+
 
     </application>
 
