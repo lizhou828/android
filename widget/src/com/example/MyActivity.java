@@ -35,6 +35,33 @@ public class MyActivity extends Activity {
         showTabButton();
         showMenuListPageButton();
         showStartActivityForResultDemoPage();
+        showHorizonVerticalPage();
+        showNotifyPage();
+    }
+
+    private void showNotifyPage() {
+        Button notifyPageButton = (Button)findViewById(R.id.notify_page);
+        notifyPageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(MyActivity.this, NotifyPageActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+    //横竖屏切换页面
+    private void showHorizonVerticalPage() {
+        Button horizonVerticalPageButton = (Button)findViewById(R.id.horizon_and_vertical_page);
+        horizonVerticalPageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(MyActivity.this, HorizonVerticalPageActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void showStartActivityForResultDemoPage() {
@@ -43,7 +70,7 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                intent.setClass(MyActivity.this,StartActivityForResultDemoPageActivity.class);
+                intent.setClass(MyActivity.this, StartActivityForResultDemoPageActivity.class);
                 startActivity(intent);
             }
         });

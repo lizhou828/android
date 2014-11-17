@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <Button android:id="@+id/notify_page_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送一个消息"
+            />
+    <Button android:id="@+id/notify_page_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消发送"
+            />
+    <ScrollView android:layout_height="wrap_content"
+                android:layout_width="fill_parent">
+        <TextView android:id="@+id/notify_page_text_view"
+                  android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                />
+    </ScrollView>
+
+</LinearLayout>

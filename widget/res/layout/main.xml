@@ -126,5 +126,14 @@
                 android:layout_width="wrap_content"
                 android:text="startActivityForResult的详细用法"
                 />
+        <Button android:id="@+id/horizon_and_vertical_page"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="横竖屏切换介绍页"/>
+        <Button android:id="@+id/notify_page"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="消息通知"
+                />
     </LinearLayout>
 </ScrollView>
