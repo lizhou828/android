@@ -37,6 +37,19 @@ public class MyActivity extends Activity {
         showStartActivityForResultDemoPage();
         showHorizonVerticalPage();
         showNotifyPage();
+        showDBListPage();
+    }
+
+    private void showDBListPage() {
+        Button dbPageButton = (Button)findViewById(R.id.db_page_button);
+        dbPageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(MyActivity.this, DBListPageActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void showNotifyPage() {

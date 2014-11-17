@@ -8,6 +8,7 @@
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/widget/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/htmlUI/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/db/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>

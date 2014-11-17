@@ -42,6 +42,7 @@
 
         <activity android:name="NotifyPageActivity"></activity>
         <activity android:name="NotifyResultActivity"></activity>
+        <activity android:name="DBListPageActivity"></activity>
 
     </application>
 

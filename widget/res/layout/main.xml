@@ -135,5 +135,11 @@
                 android:layout_width="fill_parent"
                 android:text="消息通知"
                 />
+
+        <Button android:id="@+id/db_page_button"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="安卓五种数据存储方式"
+                />
     </LinearLayout>
 </ScrollView>
