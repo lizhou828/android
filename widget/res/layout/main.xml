@@ -121,5 +121,10 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:text="三种菜单--列表页"/>
+        <Button android:id="@+id/startActivityForResultDemoPage"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="startActivityForResult的详细用法"
+                />
     </LinearLayout>
 </ScrollView>

@@ -34,6 +34,21 @@ public class MyActivity extends Activity {
         showDialogPageButton();
         showTabButton();
         showMenuListPageButton();
+        showStartActivityForResultDemoPage();
+    }
+
+    private void showStartActivityForResultDemoPage() {
+        Button demoPageButton = (Button)findViewById(R.id.startActivityForResultDemoPage);
+        demoPageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(MyActivity.this,StartActivityForResultDemoPageActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 
     private void showMenuListPageButton() {

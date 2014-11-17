@@ -48,6 +48,12 @@ public class SubMenuActivity extends Activity{
         if(item.getItemId() == Menu.FIRST + 2){
             textView.setText("您选择了："+item.getTitle());
         }
+        if(item.getItemId() == Menu.FIRST + 3){
+            textView.setText("您选择了："+item.getTitle());
+        }
+        if(item.getItemId() == Menu.FIRST + 4){
+            textView.setText("您选择了："+item.getTitle());
+        }
         return true;
     }
 }
