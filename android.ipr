@@ -159,6 +159,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/db/db.iml" filepath="$PROJECT_DIR$/db/db.iml" />
       <module fileurl="file://$PROJECT_DIR$/htmlUI/htmlUI.iml" filepath="$PROJECT_DIR$/htmlUI/htmlUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/widget/widget.iml" filepath="$PROJECT_DIR$/widget/widget.iml" />
     </modules>

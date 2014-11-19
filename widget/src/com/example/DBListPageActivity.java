@@ -29,6 +29,8 @@ public class DBListPageActivity extends Activity{
 
 //        SQLite 官网:  http://www.sqlite.org/
 
+        Button sharePreferenceButton =(Button)findViewById(R.id.sharePreference_button);
+
 
 
         //http网络通信
