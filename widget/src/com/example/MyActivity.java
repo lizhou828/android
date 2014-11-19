@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ProgressBar;
 
 public class MyActivity extends Activity {
     /**
@@ -19,6 +18,7 @@ public class MyActivity extends Activity {
         showImageViewButton();
         showImageButton();
         showImageSwitchGallery();
+        showBigImagePage();
         showCommonButton();
         showTextViewButton();
         showEditViewButton();
@@ -38,6 +38,20 @@ public class MyActivity extends Activity {
         showHorizonVerticalPage();
         showNotifyPage();
         showDBListPage();
+
+    }
+
+    private void showBigImagePage() {
+        Button imagePageButton = (Button)findViewById(R.id.image_small_enlarge);
+        imagePageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(MyActivity.this, BigImageActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void showDBListPage() {

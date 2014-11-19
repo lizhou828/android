@@ -23,11 +23,13 @@
         <activity android:name="ProgressBarActivity"></activity>
         <activity android:name="SeekBarActivity"></activity>
         <activity android:name="RatingBarActivity"></activity>
+
         <activity android:name="ImageViewActivity"></activity>
         <activity android:name="ImageButtonActivity"></activity>
         <activity android:name="ImageSwitchGalleryActivity"></activity>
-        <activity android:name="DialogPageActivity"></activity>
+        <activity android:name="BigImageActivity"></activity>
 
+        <activity android:name="DialogPageActivity"></activity>
 		 <activity android:name="TabDemoActivity"></activity>
         <activity android:name="OptionMenuActivity"></activity>
         <activity android:name="MenuListPageActivity"></activity>
@@ -43,8 +45,14 @@
         <activity android:name="NotifyPageActivity"></activity>
         <activity android:name="NotifyResultActivity"></activity>
         <activity android:name="DBListPageActivity"></activity>
+        <activity android:name="InternetHttpActivity"></activity>
 
     </application>
 
+
+    <!--拨打电话的权限-->
     <uses-permission android:name="android.permission.CAll_PHONE"/>
+    <!--访问网络的权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
 </manifest> 
