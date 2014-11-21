@@ -22,107 +22,30 @@
                    android:singleLine="true"
                    android:textColor="@color/string_color_red"
                 />
-
-        <Button android:id="@+id/photo_button"
-                   android:layout_height="wrap_content"
-                   android:layout_width="wrap_content"
-                   android:text="图片：Image View"
-                />
-        <Button android:id="@+id/image_button"
+        <Button android:id="@+id/five_common_layout"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="图片按钮Image Button"
-                />
-        <Button android:id="@+id/image_show_button"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="图片切换：Image Switch Gallery"
+                android:text="五种常用的页面布局"
                 />
 
-        <Button android:id="@+id/image_small_enlarge"
+        <Button android:id="@+id/image_list_page"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="大图片拖拽、缩放效果"
+                android:text="图片的各种应用"
+                />
+        <Button android:id="@+id/common_widget_list_page"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="常用的各种小组件"
                 />
 
-        <Button  android:id="@+id/button1"
-                  android:layout_width="fill_parent"
-                  android:layout_height="wrap_content"
-                  android:text="@string/confirm"
-                />
-        <Button android:id="@+id/button2"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/cancel"
-                />
 
-        <Button android:id="@+id/text_view_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView"
-                />
-        <Button android:id="@+id/edit_view_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="EditView"
-                />
-        <Button android:id="@+id/check_box_button"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="CheckBox"
-                />
-        <Button android:id="@+id/radio_group_button"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="RadioGroup"
-                />
-        <Button android:id="@+id/spinner_button"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="下拉列表"
-                />
-        <Button android:id="@+id/auto_complete_button"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="AutoCompleteButton"
-                />
-        <Button android:id="@+id/date_pick_button"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="DatePicker"
-                />
         <Button android:id="@+id/html_page_button"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:text="使用Html网页作为界面"
                 />
-        <Button android:id="@+id/progress_bar_button"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="进度条"
-                />
-        <Button android:id="@+id/seek_bar_button"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="拖动条"
-                />
-        <Button android:id="@+id/rating_bar_button"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="评分组件(星星)"
-                />
 
-
-        <Button android:id="@+id/dialog_page"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="Dialog弹出框"
-                />
-        <Button android:id="@+id/tab_button"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="tab标签介绍"
-                />
         <Button android:id="@+id/menu_list_page"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
@@ -140,12 +63,6 @@
                 android:layout_height="wrap_content"
                 android:layout_width="fill_parent"
                 android:text="消息通知"
-                />
-
-        <Button android:id="@+id/db_page_button"
-                android:layout_height="wrap_content"
-                android:layout_width="fill_parent"
-                android:text="安卓五种数据存储方式"
                 />
     </LinearLayout>
 </ScrollView>

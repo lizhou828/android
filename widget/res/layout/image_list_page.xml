@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <Button android:id="@+id/photo_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="图片：Image View"
+            />
+    <Button android:id="@+id/image_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="图片按钮Image Button"
+            />
+    <Button android:id="@+id/image_show_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="图片切换：Image Switch Gallery"
+            />
+
+    <Button android:id="@+id/image_small_enlarge"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="大图片拖拽、缩放效果"
+            />
+</LinearLayout>

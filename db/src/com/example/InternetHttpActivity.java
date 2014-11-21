@@ -7,9 +7,11 @@ import android.widget.TextView;
 import com.example.utils.HttpUtils;
 import org.apache.http.Header;
 import org.apache.http.HttpResponse;
+import org.apache.http.HttpStatus;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
 
@@ -26,10 +28,7 @@ public class InternetHttpActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.internet_http);
 
-        String url = "http://www.baidu.com";
-//        String result = "请求结果:\n";
-//        result += HttpUtils.get(url);
-
+        String url = "http://m.baidu.com";
 
         HttpClient httpClient = new DefaultHttpClient();
         HttpGet httpGet = new HttpGet(url);
@@ -65,13 +64,21 @@ public class InternetHttpActivity extends Activity{
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
 
+        String resultContent = "ResultContent:\n";
+        //获取返回内容
+        try {
+            resultContent += EntityUtils.toString(httpResponse.getEntity());
+        } catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+
         String message = "statusCode="+statusCode;
-        if( statusCode == 200 ){
+        if( statusCode == HttpStatus.SC_OK ){
             message += ",send http get request successful!";
         }
 
         TextView textView = (TextView)findViewById(R.id.internet_http_text_view);
-        textView.setText(message+"\n\n\n"+requestHeadContent+"\n\n\n"+responseHeadContent);
+        textView.setText(message+"\n\n\n"+requestHeadContent+"\n\n\n"+responseHeadContent+"\n\n\n"+resultContent);
 
         Intent intent = new Intent();
         intent.putExtra("message",message);

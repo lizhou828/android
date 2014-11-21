@@ -9,6 +9,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.protocol.HTTP;
+import org.apache.http.util.EntityUtils;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -34,18 +35,11 @@ public class HttpUtils {
     public static String get(String url){
         httpClient = new DefaultHttpClient();
         HttpGet get = new HttpGet(url);
-        StringBuffer responseText = null;
+        String responseText = null;
         try {
             httpResponse = httpClient.execute(get);
             httpEntity = httpResponse.getEntity();
-            if( httpEntity != null ){
-                //读取服务器响应
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(httpEntity.getContent()));
-                String line = null;
-                while ( (line = bufferedReader.readLine()) != null ){
-                    responseText.append( line +"\n");
-                }
-            }
+            EntityUtils.toString(httpEntity);
         } catch (Exception e) {
             e.printStackTrace();
             //to do something

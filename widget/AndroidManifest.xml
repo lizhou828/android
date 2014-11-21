@@ -12,6 +12,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity android:name="FiveCommonLayoutPageActivity"></activity>
+        <activity android:name="CommonWidgetListPageActivity"></activity>
         <activity android:name="TextViewActivity"></activity>
         <activity android:name="EditViewActivity"></activity>
         <activity android:name="CheckBoxActivity"></activity>
@@ -24,6 +27,8 @@
         <activity android:name="SeekBarActivity"></activity>
         <activity android:name="RatingBarActivity"></activity>
 
+
+        <activity android:name="ImageListPageActivity"></activity>
         <activity android:name="ImageViewActivity"></activity>
         <activity android:name="ImageButtonActivity"></activity>
         <activity android:name="ImageSwitchGalleryActivity"></activity>
