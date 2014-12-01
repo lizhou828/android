@@ -16,6 +16,7 @@ public class MyActivity extends Activity {
         setContentView(R.layout.main);
 
         showFiveCommonLayout();
+        showLayoutAdvancePage();
         showImageListPage();
         showCommonWidgetListPage();
         showHtmlPageButton();
@@ -25,6 +26,18 @@ public class MyActivity extends Activity {
         showNotifyPage();
 
 
+    }
+
+    private void showLayoutAdvancePage() {
+        Button button = (Button)findViewById(R.id.layout_advance_button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(MyActivity.this,LayoutAdvancePageActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void showFiveCommonLayout() {

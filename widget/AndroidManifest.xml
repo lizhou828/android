@@ -13,7 +13,20 @@
             </intent-filter>
         </activity>
 
+        <!--五种常见的页面布局-->
         <activity android:name="FiveCommonLayoutPageActivity"></activity>
+        <activity android:name="LinearLayoutActivity"></activity>
+        <activity android:name="FrameLayoutActivity"></activity>
+        <activity android:name="RelativeLayoutActivity"></activity>
+        <activity android:name="AbsoluteLayoutActivity"></activity>
+        <activity android:name="TableLayoutActivity"></activity>
+
+        <!--页面布局进阶篇(各种组合，各种特效)-->
+        <activity android:name="LayoutAdvancePageActivity"></activity>
+        <activity android:name="TableHeaderInListViewActivity"></activity>
+        <activity android:name="CustomTitleActivity" android:theme="@style/custom_title_style"></activity>
+
+
         <activity android:name="CommonWidgetListPageActivity"></activity>
         <activity android:name="TextViewActivity"></activity>
         <activity android:name="EditViewActivity"></activity>

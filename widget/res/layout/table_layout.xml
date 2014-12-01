@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/TableLayout01"
+        android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TextView android:id="@+id/table_layout_text_view"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+            />
+    <TableRow android:gravity="left">
+        <Button
+                android:text="这是第一行"
+                android:id="@+id/Button01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        </Button>
+    </TableRow>
+    <TableRow android:gravity="left">
+        <TextView android:text="第二行第0列"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"></TextView>
+        <TextView android:text="第二行第1列"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"></TextView>
+    </TableRow>
+    <TableRow android:gravity="left">
+        <TextView android:text="第三行第0列"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"></TextView>
+        <TextView android:text="第三行第1列"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"></TextView>
+    </TableRow>
+
+</TableLayout>

@@ -4,6 +4,12 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent">
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:text="Android布局是应用界面开发的重要一环。在Android中，共有五种布局方式，\n
+              分别是：LinearLayout （线性布局），FrameLayout（框架布局），AbsoluteLayout（绝对布局），RelativeLayout（相对布局），TableLayout（表格布局）。\n
+              每一个布局都有自己适合的方式，另外，这五个布局元素可以相互嵌套应用，做出美观的界面。"
+              />
     <Button android:id="@+id/linear_layout_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -12,13 +18,13 @@
     <Button android:id="@+id/frame_layout_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="FrameLayout框架布局"
+            android:text="FrameLayout框架布局(单帧布局：类似于HTML层叠)"
             />
 
     <Button android:id="@+id/absolute_layout_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="AbsoluteLayout绝对布局"
+            android:text="AbsoluteLayout绝对布局(不同设备间，适配性太差,不推荐)"
             />
 
     <Button android:id="@+id/relative_layout_button"
@@ -30,7 +36,7 @@
     <Button android:id="@+id/table_layout_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TableLayout表格布局"
+            android:text="TableLayout表格布局(只有行的概念TableRow，没有列的概念)"
             />
 
 
