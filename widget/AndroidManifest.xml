@@ -37,7 +37,7 @@
         <activity android:name=".DActivity"></activity>
         <activity android:name=".EActivity"></activity>
         <activity android:name="FixedHeaderActivity" android:theme="@style/custom_title_style"></activity>
-
+        <activity android:name="PageViewFlipperActivity"></activity>
 
 
         <activity android:name="CommonWidgetListPageActivity" android:theme="@style/custom_title_style"></activity>

@@ -33,6 +33,22 @@ public class LayoutAdvancePageActivity extends Activity {
 
         //底部导航栏选项卡
         showBottomGuideTab();
+
+        //页面左右滑动切换（ViewFlipper实现）
+        showPageCutOverButton();
+
+    }
+
+    private void showPageCutOverButton() {
+        Button button =(Button)findViewById(R.id.page_cut_over_button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(LayoutAdvancePageActivity.this,PageViewFlipperActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void showFixedHeader() {
