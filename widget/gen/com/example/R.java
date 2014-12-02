@@ -43,7 +43,7 @@ public final class R {
         public static final int widget_write_margin_top=0x7f060007;
     }
     public static final class drawable {
-        public static final int black=0x7f020074;
+        public static final int black=0x7f020075;
         public static final int blue=0x7f020000;
         public static final int channelgallery_bg=0x7f020001;
         public static final int chrysanthemum=0x7f020002;
@@ -73,10 +73,10 @@ public final class R {
         public static final int icon_4_n=0x7f02001a;
         public static final int icon_5_d=0x7f02001b;
         public static final int icon_5_n=0x7f02001c;
-        public static final int list_background=0x7f020078;
+        public static final int list_background=0x7f020079;
         public static final int loading=0x7f02001d;
-        public static final int ltgray=0x7f020072;
-        public static final int ltyellow=0x7f020073;
+        public static final int ltgray=0x7f020073;
+        public static final int ltyellow=0x7f020074;
         public static final int maintab_toolbar_bg=0x7f02001e;
         public static final int men1=0x7f02001f;
         public static final int men2=0x7f020020;
@@ -145,8 +145,8 @@ public final class R {
         public static final int menu_zoommode=0x7f02005f;
         public static final int money_note=0x7f020060;
         public static final int myself=0x7f020061;
-        public static final int namcard_picker_bkg_hover=0x7f02007a;
-        public static final int namcard_picker_bkg_normal=0x7f020079;
+        public static final int namcard_picker_bkg_hover=0x7f02007b;
+        public static final int namcard_picker_bkg_normal=0x7f02007a;
         public static final int penguins=0x7f020062;
         public static final int portal=0x7f020063;
         public static final int red=0x7f020064;
@@ -156,16 +156,17 @@ public final class R {
         public static final int seek_thumb_normal=0x7f020068;
         public static final int seek_thumb_pressed=0x7f020069;
         public static final int seek_thumb_selected=0x7f02006a;
-        public static final int square=0x7f02006b;
-        public static final int tan1=0x7f02006c;
-        public static final int tan2=0x7f02006d;
-        public static final int transparent=0x7f020075;
-        public static final int transparent_background=0x7f020077;
-        public static final int wall1=0x7f02006e;
-        public static final int wall2=0x7f02006f;
-        public static final int wall3=0x7f020070;
-        public static final int west_station=0x7f020071;
-        public static final int widget_edit_block_bg_normal=0x7f020076;
+        public static final int shape=0x7f02006b;
+        public static final int square=0x7f02006c;
+        public static final int tan1=0x7f02006d;
+        public static final int tan2=0x7f02006e;
+        public static final int transparent=0x7f020076;
+        public static final int transparent_background=0x7f020078;
+        public static final int wall1=0x7f02006f;
+        public static final int wall2=0x7f020070;
+        public static final int wall3=0x7f020071;
+        public static final int west_station=0x7f020072;
+        public static final int widget_edit_block_bg_normal=0x7f020077;
     }
     public static final class id {
         public static final int Button01=0x7f070046;
@@ -292,6 +293,8 @@ public final class R {
         public static final int tvName=0x7f070006;
         public static final int tvPassword=0x7f070007;
         public static final int view_flipper=0x7f07007c;
+        public static final int view_flipper_button=0x7f07007e;
+        public static final int view_flipper_image_scenery3=0x7f07007d;
         public static final int web_view=0x7f070034;
     }
     public static final class layout {
