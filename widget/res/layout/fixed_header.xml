@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+
+                  <LinearLayout android:id="@+id/fixed_header" android:layout_width="fill_parent"
+                                android:layout_alignParentTop="true"
+                                android:layout_height="wrap_content">
+                            <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+                                      android:gravity="center" android:textSize="25dp"
+                                      android:textColor="#1F497D" android:text="这是一个固定的表头"
+                                      android:background="#FFB9C8FF"
+                                    />
+                  </LinearLayout>
+
+
+
+                  <ListView android:id="@+id/fixed_header_list_view" android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" android:layout_marginTop="35dp"/>
+
+
+
+</RelativeLayout>

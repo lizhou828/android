@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 
 /**
@@ -17,14 +18,45 @@ public class LayoutAdvancePageActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);    //To change body of overridden methods use File | Settings | File Templates.
+        requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.layout_advance);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE,R.layout.head);
 
         //android为listView添加表头
         showTableHeaderInListView();
 
+        //固定表头
+        showFixedHeader();
+
         //自定义标题栏
         showCustomTitlePage();
 
+        //底部导航栏选项卡
+        showBottomGuideTab();
+    }
+
+    private void showFixedHeader() {
+        Button button =(Button)findViewById(R.id.fixed_header_page);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(LayoutAdvancePageActivity.this,FixedHeaderActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+    private void showBottomGuideTab() {
+        Button button =(Button)findViewById(R.id.custom_guide_page);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(LayoutAdvancePageActivity.this,MainTabActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void showCustomTitlePage() {

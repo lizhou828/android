@@ -3,9 +3,9 @@
           package="com.example"
           android:versionCode="1"
           android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="7"/>
+    <uses-sdk android:minSdkVersion="8"/>
     <application android:label="@string/app_name" android:icon="@drawable/icon">
-        <activity android:name="MyActivity" android:label="@string/app_name">
+        <activity android:name="MyActivity" android:label="@string/app_name" android:theme="@style/custom_title_style">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -13,8 +13,13 @@
             </intent-filter>
         </activity>
 
+        <!--安卓基本概念汇总-->
+        <activity android:name="CommonSensePageActivity" android:theme="@style/custom_title_style"></activity>
+        <activity android:name="PixelPageActivity" android:theme="@style/custom_title_style"></activity>
+
+
         <!--五种常见的页面布局-->
-        <activity android:name="FiveCommonLayoutPageActivity"></activity>
+        <activity android:name="FiveCommonLayoutPageActivity" android:theme="@style/custom_title_style"></activity>
         <activity android:name="LinearLayoutActivity"></activity>
         <activity android:name="FrameLayoutActivity"></activity>
         <activity android:name="RelativeLayoutActivity"></activity>
@@ -22,12 +27,20 @@
         <activity android:name="TableLayoutActivity"></activity>
 
         <!--页面布局进阶篇(各种组合，各种特效)-->
-        <activity android:name="LayoutAdvancePageActivity"></activity>
-        <activity android:name="TableHeaderInListViewActivity"></activity>
+        <activity android:name="LayoutAdvancePageActivity" android:theme="@style/custom_title_style"></activity>
+        <activity android:name="TableHeaderInListViewActivity" android:theme="@style/custom_title_style"></activity>
         <activity android:name="CustomTitleActivity" android:theme="@style/custom_title_style"></activity>
+        <activity android:name=".MainTabActivity" android:theme="@style/custom_title_style"></activity>
+        <activity android:name=".AActivity" android:theme="@style/custom_title_style"></activity>
+        <activity android:name=".BActivity" android:theme="@style/custom_title_style"></activity>
+        <activity android:name=".CActivity"></activity>
+        <activity android:name=".DActivity"></activity>
+        <activity android:name=".EActivity"></activity>
+        <activity android:name="FixedHeaderActivity" android:theme="@style/custom_title_style"></activity>
 
 
-        <activity android:name="CommonWidgetListPageActivity"></activity>
+
+        <activity android:name="CommonWidgetListPageActivity" android:theme="@style/custom_title_style"></activity>
         <activity android:name="TextViewActivity"></activity>
         <activity android:name="EditViewActivity"></activity>
         <activity android:name="CheckBoxActivity"></activity>
@@ -41,7 +54,7 @@
         <activity android:name="RatingBarActivity"></activity>
 
 
-        <activity android:name="ImageListPageActivity"></activity>
+        <activity android:name="ImageListPageActivity" android:theme="@style/custom_title_style"></activity>
         <activity android:name="ImageViewActivity"></activity>
         <activity android:name="ImageButtonActivity"></activity>
         <activity android:name="ImageSwitchGalleryActivity"></activity>
@@ -50,7 +63,7 @@
         <activity android:name="DialogPageActivity"></activity>
 		 <activity android:name="TabDemoActivity"></activity>
         <activity android:name="OptionMenuActivity"></activity>
-        <activity android:name="MenuListPageActivity"></activity>
+        <activity android:name="MenuListPageActivity" android:theme="@style/custom_title_style"></activity>
         <activity android:name="OptionMenuCustomActivity"></activity>
 
         <activity android:name="ContextMenuActivity"></activity>

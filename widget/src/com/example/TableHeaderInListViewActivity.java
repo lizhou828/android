@@ -7,6 +7,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.*;
 
 import java.util.ArrayList;
@@ -49,9 +50,10 @@ public class TableHeaderInListViewActivity extends Activity{
         listView.addHeaderView(linearLayout);//ListView设置头部view
         listView.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,getData()));
 
-
-
+        requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(listView);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE,R.layout.head);
+
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {

@@ -11,6 +11,11 @@
                 android:layout_width="wrap_content"
                 android:text="为listView添加表头(无xml布局文件)"
                 />
+        <Button android:id="@+id/fixed_header_page"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="固定表头"
+                />
         <Button android:id="@+id/custom_title_page"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
