@@ -1,32 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent">
+
              <ViewFlipper android:id="@+id/view_flipper"
                           android:layout_width="fill_parent"
                           android:layout_height="fill_parent">
-
-                 <LinearLayout android:layout_width="fill_parent" android:gravity="center" android:layout_height="fill_parent">
-                     <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_gravity="center"
-                                android:scaleType="fitXY" android:src="@drawable/scenery1"/>
-                 </LinearLayout>
-
-                 <LinearLayout android:layout_width="fill_parent" android:gravity="center" android:layout_height="fill_parent">
-                     <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_gravity="center"
-                                android:scaleType="fitXY" android:src="@drawable/scenery2"/>
-                 </LinearLayout>
-
-                 <LinearLayout android:layout_width="fill_parent" android:gravity="center" android:layout_height="fill_parent">
-                     <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-                         <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_gravity="center"
-                                    android:id="@+id/view_flipper_image_scenery3" android:scaleType="fitXY" android:src="@drawable/scenery3"/>
-                         <Button android:id="@+id/view_flipper_button"  android:layout_height="wrap_content" android:layout_width="wrap_content"
-                                 android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="20dip"
-                                 android:background="@drawable/shape" android:text="立即体验"/>
-                     </RelativeLayout>
-                 </LinearLayout>
-
              </ViewFlipper>
-</LinearLayout>
+
+             <LinearLayout   android:orientation="horizontal"
+                             android:layout_width="wrap_content"
+                             android:layout_gravity="bottom|center_horizontal"
+                             android:layout_height="wrap_content">
+
+                             <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_gravity="center"
+                                        android:scaleType="fitXY" android:id="@+id/view_flipper_image_scenery1" android:src="@drawable/da"/>
+
+                             <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_gravity="center"
+                                        android:scaleType="fitXY" android:id="@+id/view_flipper_image_scenery2" android:src="@drawable/xiao"/>
+
+                             <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_gravity="center"
+                                                android:scaleType="fitXY" android:id="@+id/view_flipper_image_scenery3" android:src="@drawable/xiao"/>
+
+                             <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_gravity="center"
+                                        android:scaleType="fitXY" android:id="@+id/view_flipper_image_scenery4" android:src="@drawable/xiao"/>
+
+                             <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_gravity="center"
+                                        android:scaleType="fitXY" android:id="@+id/view_flipper_image_scenery5" android:src="@drawable/xiao"/>
+
+                            <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_gravity="center"
+                                       android:id="@+id/view_flipper_image_scenery6" android:scaleType="fitXY" android:src="@drawable/xiao"/>
+
+             </LinearLayout>
+</FrameLayout>

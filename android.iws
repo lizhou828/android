@@ -6,19 +6,16 @@
         <option name="device" value="2.7in QVGA" />
         <option name="dockMode" value="" />
         <option name="nightMode" value="notnight" />
-        <option name="targetHashString" value="android-7" />
-        <option name="theme" value="Theme" />
+        <option name="targetHashString" value="android-8" />
+        <option name="theme" value="custom_title_style" />
         <option name="visible" value="false" />
       </GlobalState>
     </option>
-    <device-configurations>
-      <entry key="file://$PROJECT_DIR$/db/res/layout/db_list.xml" value="Landscape" />
-      <entry key="file://$PROJECT_DIR$/db/res/layout/internet_http.xml" value="Landscape" />
-      <entry key="file://$PROJECT_DIR$/db/res/layout/main.xml" value="Landscape" />
-      <entry key="file://$PROJECT_DIR$/widget/res/layout/edit_view.xml" value="Landscape" />
-      <entry key="file://$PROJECT_DIR$/widget/res/layout/image_list_page.xml" value="Landscape" />
-      <entry key="file://$PROJECT_DIR$/widget/res/layout/image_switch_gallery.xml" value="Landscape" />
-    </device-configurations>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
@@ -27,6 +24,11 @@
     <list default="true" id="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" name="Default" comment="" />
     <ignored path="android.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/fragment.java" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417589337526" ignored="false" />
+    <file path="/a.dummy" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417595378343" ignored="false" />
+    <file path="/view_flipper.xml" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417595354445" ignored="false" />
+    <file path="/PageViewFlipperActivity.java" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417594238869" ignored="false" />
+    <file path="/layoutwelcome2.xml" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417595573959" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any>
+    <breakpoint_any default_suspend_policy="SuspendAll">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -73,31 +75,33 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" />
     <breakpoint_rules />
     <ui_properties />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="android" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PageViewFlipperActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PageViewFlipperActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/widget/src/com/example/PageViewFlipperActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="30" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.70229006">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#996#1216#0" expanded="true" />
-                <element signature="e#1205#1206#0" expanded="true" />
-              </folding>
+            <state line="112" column="106" selection-start="3698" selection-end="3698" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view_flipper.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="view_flipper.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/widget/res/layout/view_flipper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="77" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+            <state line="33" column="138" selection-start="2463" selection-end="2463" vertical-scroll-proportion="0.66431093">
               <folding />
             </state>
           </provider>
@@ -113,8 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/widget/src/com/example/TabDemoActivity.java" />
-        <option value="$PROJECT_DIR$/widget/src/com/example/TableHeaderInListViewActivity.java" />
         <option value="$PROJECT_DIR$/widget/src/com/example/ContextMenuActivity.java" />
         <option value="$PROJECT_DIR$/widget/src/com/example/FixedHeaderActivity.java" />
         <option value="$PROJECT_DIR$/widget/res/layout/fixed_header.xml" />
@@ -127,10 +129,15 @@
         <option value="$PROJECT_DIR$/widget/res/anim/out_left_right.xml" />
         <option value="$PROJECT_DIR$/widget/res/anim/out_right_left.xml" />
         <option value="$PROJECT_DIR$/widget/res/drawable/shape.xml" />
-        <option value="$PROJECT_DIR$/widget/res/layout/view_flipper.xml" />
+        <option value="$PROJECT_DIR$/widget/gen/com/example/R.java" />
+        <option value="$PROJECT_DIR$/widget/res/layout/layoutwelcome2.xml" />
         <option value="$PROJECT_DIR$/widget/src/com/example/PageViewFlipperActivity.java" />
+        <option value="$PROJECT_DIR$/widget/res/layout/view_flipper.xml" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_INTERNAL" />
@@ -169,6 +176,27 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Default" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,29 +257,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Default" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -272,7 +297,9 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -284,6 +311,9 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\android\widget\res\drawable-hdpi" />
+      <recent name="D:\workspace\android\widget\res\layout" />
+      <recent name="D:\workspace\android\widget\res\drawable-mdpi" />
+      <recent name="D:\workspace\android\widget\res\drawable-ldpi" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example" />
@@ -324,17 +354,6 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -366,39 +385,6 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -508,7 +494,7 @@
     <configuration default="false" name="db" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="db" />
       <option name="ACTIVITY_CLASS" value="com.example.MyActivity" />
-      <option name="MODE" value="specific_activity" />
+      <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
@@ -533,7 +519,12 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -543,7 +534,6 @@
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
@@ -559,6 +549,9 @@
       <updated>1415437733869</updated>
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6042000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -582,32 +575,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3445946" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29222974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4037162" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21570122" sideWeight="0.2179054" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4664372" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20833333" sideWeight="0.24956971" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3614865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5101351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50921273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.6706081" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.53356284" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20906281" sideWeight="0.7060811" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1882622" sideWeight="0.5962838" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2483108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34338358" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39028475" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -705,28 +699,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/widget/src/com/example/LayoutAdvancePageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="86" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1229#1528#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/widget/res/drawable-hdpi/scenery3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/widget/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/widget/proguard.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="98" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.11491936">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files (x86)/android-sdk-windows/platforms/android-7/android.jar!/android/app/Activity.class">
+    <entry file="file://$PROJECT_DIR$/widget/src/com/example/BigImageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.15322581">
-          <folding />
-        </state>
+        <state line="12" column="21" selection-start="373" selection-end="373" vertical-scroll-proportion="0.3323077" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/src/com/example/MyGallery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="25" selection-start="896" selection-end="896" vertical-scroll-proportion="0.3323077" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/widget/res/drawable-hdpi/scenery1.jpg">
@@ -734,87 +724,30 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/drawable-hdpi/scenery2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/drawable-hdpi/scenery3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/anim/out_right_left.xml">
+    <entry file="file://$PROJECT_DIR$/widget/gen/com/example/BuildConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="201" selection-end="201" vertical-scroll-proportion="0.27046263">
-          <folding />
-        </state>
+        <state line="5" column="19" selection-start="121" selection-end="121" vertical-scroll-proportion="0.18152866" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/anim/out_left_right.xml">
+    <entry file="file://$PROJECT_DIR$/widget/res/layout/common_widget_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="139" selection-end="139" vertical-scroll-proportion="0.18874173">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/anim/in_right_left.xml">
+    <entry file="file://$PROJECT_DIR$/widget/gen/com/example/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="35" selection-start="140" selection-end="140" vertical-scroll-proportion="0.18874173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/anim/in_left_right.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="35" selection-start="140" selection-end="140" vertical-scroll-proportion="0.18874173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/layout/relative_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="30" selection-start="814" selection-end="814" vertical-scroll-proportion="0.5706714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/src/com/example/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="621" selection-end="621" vertical-scroll-proportion="0.4318182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/drawable/shape.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="119" selection-start="397" selection-end="397" vertical-scroll-proportion="0.64772725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/android-sdk-windows/platforms/android-7/android.jar!/android/widget/Toast.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="71" selection-start="1281" selection-end="1288" vertical-scroll-proportion="0.56360424">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/layout/view_flipper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="77" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="300" column="59" selection-start="17060" selection-end="17087" vertical-scroll-proportion="0.22735675" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/widget/src/com/example/PageViewFlipperActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="30" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.70229006">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#996#1216#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-          </folding>
+        <state line="112" column="106" selection-start="3698" selection-end="3698" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/res/layout/view_flipper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="138" selection-start="2463" selection-end="2463" vertical-scroll-proportion="0.66431093">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -858,7 +791,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android 2.1 Platform</last-edited>
+          <last-edited>Android 2.2 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -870,12 +803,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>widget</last-edited>
+          <last-edited>db</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
