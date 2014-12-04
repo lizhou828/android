@@ -13,7 +13,7 @@
         <Button android:id="@+id/sharePreference_button"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="SharePreference"
+                android:text="SharePreference(去登录页面看下?)"
                 />
         <Button android:id="@+id/file_button"
                 android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
         <Button android:id="@+id/internet_button"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="Internet(HTTP 通信)"
+                android:text="Internet(HTTP 通信)访问手机版百度首页，并获取源码"
                 />
     </LinearLayout>
 </ScrollView>

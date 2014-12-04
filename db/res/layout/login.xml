@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+              <TextView android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Shared Preferences Demo"
+                      />
+             <TextView android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Name:"
+                     />
+             <EditText android:id="@+id/name"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                     />
+
+            <TextView android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Password:"
+                    />
+            <EditText android:id="@+id/password"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:password="true"
+                    />
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="其本质就是一个xml文件，常用于存储较简单的参数设置"
+                />
+
+
+</LinearLayout>

@@ -2,6 +2,7 @@ package com.example;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +16,7 @@ import android.widget.Toast;
  * To change this template use File | Settings | File Templates.
  */
 public class DBListPageActivity extends Activity{
+    private final int sharedPreferenceCode = 0;
     private final int httpRequestCode = 4;
 
     @Override
@@ -29,6 +31,24 @@ public class DBListPageActivity extends Activity{
 //        SQLite 官网:  http://www.sqlite.org/
 
         Button sharePreferenceButton =(Button)findViewById(R.id.sharePreference_button);
+        sharePreferenceButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DBListPageActivity.this, SharedPreferencesActivity.class);
+                startActivityForResult(intent, sharedPreferenceCode);
+            }
+        });
+
+
+        Button fileButton = (Button)findViewById(R.id.file_button);
+        fileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DBListPageActivity.this, FileActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
 
@@ -37,8 +57,7 @@ public class DBListPageActivity extends Activity{
         IntentHttpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent sendHttpIntent = new Intent();
-                sendHttpIntent.setClass(DBListPageActivity.this, InternetHttpActivity.class);
+                Intent sendHttpIntent = new Intent( DBListPageActivity.this, InternetHttpActivity.class );
                 startActivityForResult(sendHttpIntent,httpRequestCode);
             }
         });
@@ -47,11 +66,13 @@ public class DBListPageActivity extends Activity{
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        String message = data.getStringExtra("message");
         switch ( requestCode ){
             case httpRequestCode:
-                String message = data.getStringExtra("message");
                 Toast.makeText(this,message,Toast.LENGTH_LONG).show();
                 break;
+            case  sharedPreferenceCode :
+                Toast.makeText(this,message,Toast.LENGTH_LONG).show();
             default:break;
         }
     }

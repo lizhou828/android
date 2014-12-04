@@ -17,6 +17,8 @@
 
         <activity android:name=".DBListPageActivity"></activity>
         <activity android:name=".InternetHttpActivity"></activity>
+        <activity android:name=".SharedPreferencesActivity"/>
+        <activity android:name=".FileActivity"/>
 
     </application>
 
