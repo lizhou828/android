@@ -32,7 +32,11 @@
                 android:layout_width="wrap_content"
                 android:text="页面左右滑动切换（ViewFlipper实现）"
                 />
-
+        <Button android:id="@+id/upDown_pull_refresh_button"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="上拉加载更多/下拉刷新"
+                />
 
     </LinearLayout>
 </ScrollView>

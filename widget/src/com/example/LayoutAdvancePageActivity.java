@@ -37,6 +37,20 @@ public class LayoutAdvancePageActivity extends Activity {
         //页面左右滑动切换（ViewFlipper实现）
         showPageCutOverButton();
 
+        //上拉加载更多/下拉刷新
+        showUpDownPullRefresh();
+
+    }
+
+    private void showUpDownPullRefresh() {
+        Button button =(Button)findViewById(R.id.upDown_pull_refresh_button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LayoutAdvancePageActivity.this,XListViewActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void showPageCutOverButton() {

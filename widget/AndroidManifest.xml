@@ -38,6 +38,7 @@
         <activity android:name=".EActivity"></activity>
         <activity android:name="FixedHeaderActivity" android:theme="@style/custom_title_style"></activity>
         <activity android:name="PageViewFlipperActivity" ></activity>
+        <activity android:name=".XListViewActivity"></activity>
 
 
         <activity android:name="CommonWidgetListPageActivity" android:theme="@style/custom_title_style"></activity>
