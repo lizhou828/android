@@ -24,11 +24,11 @@
     <list default="true" id="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" name="Default" comment="" />
     <ignored path="android.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417589337526" ignored="false" />
-    <file path="/a.dummy" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417595378343" ignored="false" />
-    <file path="/view_flipper.xml" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417595354445" ignored="false" />
-    <file path="/PageViewFlipperActivity.java" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417594238869" ignored="false" />
     <file path="/layoutwelcome2.xml" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417595573959" ignored="false" />
+    <file path="/PageViewFlipperActivity.java" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417594238869" ignored="false" />
+    <file path="/view_flipper.xml" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417595354445" ignored="false" />
+    <file path="/a.dummy" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417595378343" ignored="false" />
+    <file path="/fragment.java" changelist="cfab6dba-627a-4ec5-a372-a4c37a8f1dd3" time="1417589337526" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
     <groupTables value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" />
     <breakpoint_any default_suspend_policy="SuspendAll">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -84,7 +85,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -98,69 +98,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DBListPageActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/src/com/example/DBListPageActivity.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/src/com/example/ORMLite/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1215#1506#0" expanded="true" />
-                <element signature="e#1495#1496#0" expanded="true" />
-                <element signature="e#1617#1864#0" expanded="true" />
-                <element signature="e#1853#1854#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diary_edit.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/res/layout/diary_edit.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="1" selection-start="41" selection-end="53" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diary_list.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/res/layout/diary_list.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="1" selection-start="41" selection-end="53" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diary_row.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/res/layout/diary_row.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="1" selection-start="41" selection-end="53" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiaryDbAdapter.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/src/com/example/DiaryDbAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="71" selection-start="211" selection-end="211" vertical-scroll-proportion="0.3392857">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiaryEditActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/src/com/example/DiaryEditActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="99" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/src/com/example/FileActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="90" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
+            <state line="127" column="91" selection-start="4343" selection-end="4343" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,20 +109,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_list.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/res/layout/db_list.xml">
+      <file leaf-file-name="StudentListActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/src/com/example/ORMLite/StudentListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="46" selection-start="1024" selection-end="1037" vertical-scroll-proportion="0.0">
+            <state line="181" column="89" selection-start="5945" selection-end="5945" vertical-scroll-proportion="5.7826853">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2868#3336#0" expanded="true" />
+                <element signature="e#3325#3326#0" expanded="true" />
+                <element signature="e#3380#3569#0" expanded="true" />
+                <element signature="e#3558#3559#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/src/com/example/model/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/res/layout/login.xml">
+      <file leaf-file-name="students.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/res/layout/students.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="85" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0">
+            <state line="10" column="81" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/res/layout/student_item.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="61" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XueSheng.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/src/com/example/model/XueSheng.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="56" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/src/com/example/ORMLite/DatabaseHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="74" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,22 +190,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/widget/res/layout/xlist_view.xml" />
-        <option value="$PROJECT_DIR$/widget/src/com/example/MyActivity.java" />
-        <option value="$PROJECT_DIR$/widget/res/layout/xlist_item.xml" />
-        <option value="$PROJECT_DIR$/widget/src/com/example/XListViewActivity.java" />
-        <option value="$PROJECT_DIR$/db/src/com/example/MyActivity.java" />
-        <option value="$PROJECT_DIR$/db/res/layout/db_list.xml" />
-        <option value="$PROJECT_DIR$/db/src/com/example/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/db/src/com/example/SharedPreferencesActivity.java" />
-        <option value="$PROJECT_DIR$/db/res/layout/login.xml" />
-        <option value="$PROJECT_DIR$/db/src/com/example/FileActivity.java" />
-        <option value="$PROJECT_DIR$/db/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/db/res/layout/diary_edit.xml" />
-        <option value="$PROJECT_DIR$/db/res/layout/diary_list.xml" />
-        <option value="$PROJECT_DIR$/db/res/layout/diary_row.xml" />
-        <option value="$PROJECT_DIR$/db/src/com/example/DBListPageActivity.java" />
         <option value="$PROJECT_DIR$/db/src/com/example/DiaryDbAdapter.java" />
+        <option value="$PROJECT_DIR$/db/src/com/example/model/Student.java" />
+        <option value="$PROJECT_DIR$/db/src/com/example/SQLiteCRUD.java" />
+        <option value="$PROJECT_DIR$/db/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/db/src/com/example/MyActivity.java" />
+        <option value="$PROJECT_DIR$/db/res/layout/sqlite_crud.xml" />
+        <option value="$PROJECT_DIR$/db/src/com/example/SQLiteCRUDActivity.java" />
+        <option value="$PROJECT_DIR$/db/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/db/src/com/example/ORMLite/SutdentListActivity.java" />
+        <option value="$PROJECT_DIR$/db/res/layout/student_add.xml" />
+        <option value="$PROJECT_DIR$/db/res/layout/student_item.xml" />
+        <option value="$PROJECT_DIR$/db/src/com/example/model/XueSheng.java" />
+        <option value="$PROJECT_DIR$/db/src/com/example/ORMLite/DatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/db/src/com/example/ORMLite/MainActivity.java" />
+        <option value="$PROJECT_DIR$/db/res/layout/students.xml" />
+        <option value="$PROJECT_DIR$/db/src/com/example/ORMLite/StudentListActivity.java" />
       </list>
     </option>
   </component>
@@ -229,10 +216,10 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="612" />
-    <option name="y" value="25" />
-    <option name="width" value="1094" />
-    <option name="height" value="713" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1376" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -308,6 +295,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ORMLite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -340,7 +371,7 @@
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/db/src/com/example" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -352,18 +383,19 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\android\db\libs" />
       <recent name="D:\workspace\android\widget\res\layout" />
       <recent name="D:\workspace\android\widget\res\drawable-hdpi" />
       <recent name="D:\workspace\android\widget\res\drawable-mdpi" />
@@ -373,13 +405,13 @@
       <recent name="com.example" />
       <recent name="com.example.view" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.example" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\android\db\res\layout" />
       <recent name="D:\workspace\android\widget\res\layout" />
       <recent name="D:\workspace\android\widget\gen\com\example" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.db">
@@ -630,7 +662,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="612" y="25" width="1094" height="713" extended-state="0" />
+    <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.722973" order="3" side_tool="false" content_ui="tabs" />
@@ -639,7 +671,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3141892" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4391892" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4664372" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20833333" sideWeight="0.24956971" order="2" side_tool="true" content_ui="tabs" />
@@ -651,7 +683,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.6706081" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.722973" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39939025" sideWeight="0.722973" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27961165" sideWeight="0.6858108" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2524272" sideWeight="0.5608108" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2483108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -755,124 +787,127 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/res/layout/internet_http.xml">
+    <entry file="file://$PROJECT_DIR$/db/src/com/example/model/XueSheng.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/android-sdk-windows/platforms/android-8/android.jar!/android/content/ContextWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="33" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.33203125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/android-sdk-windows/platforms/android-8/android.jar!/android/content/SharedPreferences.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="63" selection-start="568" selection-end="568" vertical-scroll-proportion="0.26095238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/src/com/example/SharedPreferencesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="84" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.0">
+        <state line="73" column="56" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/src/com/example/InternetHttpActivity.java">
+    <entry file="jar://$PROJECT_DIR$/db/libs/ormlite-core-4.48-sources.jar!/com/j256/ormlite/logger/LoggerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="46" selection-start="2951" selection-end="3100" vertical-scroll-proportion="0.7256637">
+        <state line="15" column="13" selection-start="523" selection-end="523" vertical-scroll-proportion="0.33211008">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/res/layout/login.xml">
+    <entry file="jar://$PROJECT_DIR$/db/libs/ormlite-core-4.48-sources.jar!/com/j256/ormlite/dao/DaoManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="85" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0">
+        <state line="34" column="42" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.018348623">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/AndroidManifest.xml">
+    <entry file="jar://$PROJECT_DIR$/db/libs/ormlite-core-4.48-sources.jar!/com/j256/ormlite/table/TableUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="48" selection-start="896" selection-end="896" vertical-scroll-proportion="0.6894737">
+        <state line="217" column="41" selection-start="8845" selection-end="8845" vertical-scroll-proportion="0.35865724">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/widget/assets/contactList.html">
+    <entry file="file://$PROJECT_DIR$/db/src/com/example/ORMLite/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="127" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.9535316">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/res/layout/db_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="46" selection-start="1024" selection-end="1037" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/src/com/example/FileActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="90" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
+        <state line="38" column="74" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/res/layout/diary_edit.xml">
+    <entry file="jar://$PROJECT_DIR$/db/libs/ormlite-android-4.48-sources.jar!/com/j256/ormlite/android/apptools/OrmLiteSqliteOpenHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="41" selection-end="53" vertical-scroll-proportion="0.0">
+        <state line="33" column="22" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/res/layout/diary_list.xml">
+    <entry file="jar://$PROJECT_DIR$/db/libs/ormlite-android-4.48-sources.jar!/com/j256/ormlite/android/apptools/OrmLiteBaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="41" selection-end="53" vertical-scroll-proportion="0.0">
+        <state line="23" column="65" selection-start="998" selection-end="998" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/res/layout/diary_row.xml">
+    <entry file="file://$PROJECT_DIR$/db/res/layout/student_add.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="41" selection-end="53" vertical-scroll-proportion="0.0">
+        <state line="17" column="28" selection-start="875" selection-end="875" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/src/com/example/DiaryEditActivity.java">
+    <entry file="jar://D:/Program Files (x86)/android-sdk-windows/platforms/android-8/android.jar!/android/app/Activity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="99" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+        <state line="20" column="30" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.33195022">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/src/com/example/DBListPageActivity.java">
+    <entry file="jar://D:/Program Files (x86)/android-sdk-windows/platforms/android-8/android.jar!/android/content/Intent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.0">
+        <state line="282" column="63" selection-start="21431" selection-end="21431" vertical-scroll-proportion="0.3713693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/res/layout/student_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="61" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/com/example/ORMLite/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="91" selection-start="4343" selection-end="4343" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1215#1506#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1617#1864#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/src/com/example/DiaryDbAdapter.java">
+    <entry file="file://$PROJECT_DIR$/db/res/layout/students.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="71" selection-start="211" selection-end="211" vertical-scroll-proportion="0.3392857">
+        <state line="10" column="81" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/com/example/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/android-sdk-windows/platforms/android-8/android.jar!/java/util/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="6" selection-start="574" selection-end="574" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/src/com/example/ORMLite/StudentListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="89" selection-start="5945" selection-end="5945" vertical-scroll-proportion="5.7826853">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2868#3336#0" expanded="true" />
+            <element signature="e#3325#3326#0" expanded="true" />
+            <element signature="e#3380#3569#0" expanded="true" />
+            <element signature="e#3558#3559#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -952,6 +987,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>ormlite-android-4.48-sources</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

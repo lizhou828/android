@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <Button android:id="@+id/insert"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="插入"
+            />
+
+    <Button android:id="@+id/updateGrade"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="更新分数"
+            />
+    <Button android:id="@+id/updateAge"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="插入年龄"
+            />
+    <Button android:id="@+id/delete"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="删除"
+            />
+    <Button android:id="@+id/select"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="查找所有学生"
+            />
+    <Button android:id="@+id/display_current_db"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="显示当前数据库所有信息"
+            android:visibility="invisible"
+            />
+    <Button android:id="@+id/close"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="关闭DB"
+            />
+    <Button android:id="@+id/open"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="开启DB"
+            />
+
+    <ListView android:id="@+id/sqlite_crud_list_view"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            />
+</LinearLayout>

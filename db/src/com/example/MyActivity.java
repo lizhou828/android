@@ -5,8 +5,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
-public class MyActivity extends Activity {
+public class MyActivity extends Activity implements View.OnClickListener {
     /**
      * Called when the activity is first created.
      */
@@ -14,20 +15,25 @@ public class MyActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        Button button1 = (Button)findViewById(R.id.sqlite_crud_button);
+        button1.setOnClickListener(this);
 
-        showDBListPage();
+        Button button2 = (Button)findViewById(R.id.db_page_button);
+        button2.setOnClickListener(this);
 
     }
 
-    private void showDBListPage() {
-        Button dbPageButton = (Button)findViewById(R.id.db_page_button);
-        dbPageButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent();
-                intent.setClass(MyActivity.this, DBListPageActivity.class);
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.sqlite_crud_button :
+                Intent intent = new Intent(MyActivity.this,SQLiteCRUDActivity.class);
                 startActivity(intent);
-            }
-        });
+                break;
+            case R.id.db_page_button :
+                startActivity(new Intent(MyActivity.this,DBListPageActivity.class));
+                break;
+            default:break;
+        }
     }
 }

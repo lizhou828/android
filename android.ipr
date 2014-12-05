@@ -174,5 +174,20 @@
     <mapping directory="" vcs="" />
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
+  <component name="libraryTable">
+    <library name="ormlite-android-4.48-sources">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/db/libs/ormlite-android-4.48.jar!/" />
+        <root url="jar://$PROJECT_DIR$/db/libs/ormlite-core-4.48.jar!/" />
+        <root url="jar://$PROJECT_DIR$/db/libs/ormlite-jdbc-4.48.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/db/libs/ormlite-android-4.48-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/db/libs/ormlite-core-4.48-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/db/libs/ormlite-jdbc-4.48-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
 </project>
 

@@ -14,15 +14,35 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
+        public static final int address=0x7f050018;
+        public static final int age=0x7f050015;
+        public static final int close=0x7f050011;
         public static final int content_provider_button=0x7f050003;
         public static final int db_page_button=0x7f050008;
+        public static final int delete=0x7f05000e;
+        public static final int display_current_db=0x7f050010;
         public static final int file_button=0x7f050001;
+        public static final int insert=0x7f05000b;
         public static final int internet_button=0x7f050004;
         public static final int internet_http_text_view=0x7f050005;
+        public static final int itemname=0x7f05001a;
+        public static final int itemno=0x7f050019;
+        public static final int itemscore=0x7f05001b;
         public static final int name=0x7f050006;
+        public static final int open=0x7f050012;
+        public static final int ormlite_crud_button=0x7f05000a;
         public static final int password=0x7f050007;
+        public static final int score=0x7f050017;
+        public static final int select=0x7f05000f;
+        public static final int sex=0x7f050016;
         public static final int sharePreference_button=0x7f050000;
         public static final int sqlite_button=0x7f050002;
+        public static final int sqlite_crud_button=0x7f050009;
+        public static final int sqlite_crud_list_view=0x7f050013;
+        public static final int student_list=0x7f05001c;
+        public static final int stuno=0x7f050014;
+        public static final int updateAge=0x7f05000d;
+        public static final int updateGrade=0x7f05000c;
     }
     public static final class layout {
         public static final int db_list=0x7f030000;
@@ -32,6 +52,10 @@ public final class R {
         public static final int internet_http=0x7f030004;
         public static final int login=0x7f030005;
         public static final int main=0x7f030006;
+        public static final int sqlite_crud=0x7f030007;
+        public static final int student_add=0x7f030008;
+        public static final int student_item=0x7f030009;
+        public static final int students=0x7f03000a;
     }
     public static final class string {
         public static final int app_name=0x7f040000;

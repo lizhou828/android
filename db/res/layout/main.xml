@@ -2,13 +2,24 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
-    <LinearLayout android:layout_width="fill_parent"
+    <LinearLayout android:orientation="vertical"
+            android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             >
         <Button android:id="@+id/db_page_button"
                 android:layout_height="wrap_content"
                 android:layout_width="fill_parent"
-                android:text="安卓五种数据存储方式"
+                android:text="安卓五种数据存储方式介绍"
+                />
+        <Button android:id="@+id/sqlite_crud_button"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="SQLite CRUD(原生代码)"
+                />
+        <Button android:id="@+id/ormlite_crud_button"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="SQLite CRUD(ORMLite框架实现)"
                 />
     </LinearLayout>
 </ScrollView>
