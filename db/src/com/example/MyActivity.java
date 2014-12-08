@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+import com.example.ORMLite.MainActivity;
 
 public class MyActivity extends Activity implements View.OnClickListener {
     /**
@@ -21,6 +22,9 @@ public class MyActivity extends Activity implements View.OnClickListener {
         Button button2 = (Button)findViewById(R.id.db_page_button);
         button2.setOnClickListener(this);
 
+        Button button3 = (Button)findViewById(R.id.ormlite_crud_button);
+        button3.setOnClickListener(this);
+
     }
 
     @Override
@@ -33,6 +37,8 @@ public class MyActivity extends Activity implements View.OnClickListener {
             case R.id.db_page_button :
                 startActivity(new Intent(MyActivity.this,DBListPageActivity.class));
                 break;
+            case R.id.ormlite_crud_button :
+                startActivity(new Intent(MyActivity.this, MainActivity.class));
             default:break;
         }
     }

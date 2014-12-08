@@ -46,16 +46,13 @@ public final class R {
     }
     public static final class layout {
         public static final int db_list=0x7f030000;
-        public static final int diary_edit=0x7f030001;
-        public static final int diary_list=0x7f030002;
-        public static final int diary_row=0x7f030003;
-        public static final int internet_http=0x7f030004;
-        public static final int login=0x7f030005;
-        public static final int main=0x7f030006;
-        public static final int sqlite_crud=0x7f030007;
-        public static final int student_add=0x7f030008;
-        public static final int student_item=0x7f030009;
-        public static final int students=0x7f03000a;
+        public static final int internet_http=0x7f030001;
+        public static final int login=0x7f030002;
+        public static final int main=0x7f030003;
+        public static final int sqlite_crud=0x7f030004;
+        public static final int student_add=0x7f030005;
+        public static final int student_item=0x7f030006;
+        public static final int students=0x7f030007;
     }
     public static final class string {
         public static final int app_name=0x7f040000;

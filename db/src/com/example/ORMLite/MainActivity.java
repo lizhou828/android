@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.Toast;
 import com.example.R;
 import com.example.model.XueSheng;
 import com.j256.ormlite.android.apptools.OrmLiteBaseActivity;
@@ -38,7 +39,7 @@ public class MainActivity extends OrmLiteBaseActivity<DatabaseHelper> {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);    //To change body of overridden methods use File | Settings | File Templates.
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.student_add);
         initViews();
     }
@@ -51,6 +52,8 @@ public class MainActivity extends OrmLiteBaseActivity<DatabaseHelper> {
         stuScore = (EditText)findViewById(R.id.score);
         stuAddress = (EditText)findViewById(R.id.address);
 
+        // getIntent得到一个Intent，是指上一个activity启动的intent，这个方法返回intent对象，
+        // 然后调用intent.getExtras（）得到intent所附带的额外数据
         mBundle = getIntent().getExtras();
         if( mBundle != null && mBundle.getString("action").equals("viewone")){
             mStudent = (XueSheng)getIntent().getSerializableExtra("entity");
@@ -62,6 +65,8 @@ public class MainActivity extends OrmLiteBaseActivity<DatabaseHelper> {
         }
     }
 
+
+    //
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         if(mBundle != null && mBundle.getString("action").equals("viewone")){
@@ -93,6 +98,7 @@ public class MainActivity extends OrmLiteBaseActivity<DatabaseHelper> {
                     if(mStudent != null){
                         //创建记录项
                         stuDao.create(mStudent);
+                        Toast.makeText(this,"新增成功",Toast.LENGTH_SHORT).show();
                     }
                 } catch (SQLException e) {
                     e.printStackTrace();
@@ -110,6 +116,7 @@ public class MainActivity extends OrmLiteBaseActivity<DatabaseHelper> {
                     if(mStudent != null){
                         //更新某记录项
                         stuDao.update(mStudent);
+                        Toast.makeText(this,"修改成功",Toast.LENGTH_SHORT).show();
                     }
                 } catch (SQLException e) {
                     e.printStackTrace();
@@ -134,9 +141,15 @@ public class MainActivity extends OrmLiteBaseActivity<DatabaseHelper> {
         mStudent = new XueSheng();
         mStudent.setStuNO(stuNO.getText().toString());
         mStudent.setName(stuName.getText().toString());
-        mStudent.setAge(Integer.parseInt(stuAge.getText().toString()));
+        String ageStr =stuAge.getText().toString();
+        ageStr = ageStr == null || "".equals(ageStr) || "null".equalsIgnoreCase(ageStr) ? "0" : ageStr;
+        Integer age = Integer.parseInt(ageStr.trim());
+        mStudent.setAge(age);
         mStudent.setSex(stuSex.getText().toString());
-        mStudent.setScore(Double.parseDouble(stuScore.getText().toString()));
+        String scoreStr = stuScore.getText().toString();
+        scoreStr = scoreStr == null || "".equals(scoreStr) || "null".equalsIgnoreCase(scoreStr) ? "0.0" :scoreStr;
+        Double score = Double.parseDouble(scoreStr.trim());
+        mStudent.setScore(score);
         mStudent.setAddress(stuAddress.getText().toString());
     }
 }

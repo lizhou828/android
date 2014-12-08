@@ -6,10 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.*;
-import android.widget.AdapterView;
-import android.widget.BaseAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
+import android.widget.*;
 import com.example.R;
 import com.example.model.Student;
 import com.example.model.XueSheng;
@@ -42,6 +39,7 @@ public class StudentListActivity extends OrmLiteBaseActivity<DatabaseHelper> {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.students);
         mContext = getApplicationContext();
         studentListView = (ListView)findViewById(R.id.student_list);
         registerForContextMenu(studentListView);//注册上下文菜单
@@ -84,21 +82,21 @@ public class StudentListActivity extends OrmLiteBaseActivity<DatabaseHelper> {
                 .setTitle("警告")
                 .setMessage("确定要删除该记录");
         builder2.setPositiveButton("确定", new DialogInterface.OnClickListener() {
-
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 XueSheng mDelStudent = (XueSheng)studentListView.getAdapter().getItem(pos);
                 try {
                     stuDao.delete(mDelStudent); //删除记录
                     queryListViewItem();
+                    Toast.makeText(StudentListActivity.this, "删除成功", Toast.LENGTH_SHORT).show();
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
 
             }
         });
-        builder2.setNegativeButton("取消", new DialogInterface.OnClickListener() {
 
+        builder2.setNegativeButton("取消", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();

@@ -21,6 +21,9 @@
         <activity android:name=".FileActivity"/>
         <activity android:name=".SQLiteCRUDActivity"/>
 
+        <activity android:name="com.example.ORMLite.MainActivity"/>
+        <activity android:name="com.example.ORMLite.StudentListActivity"/>
+
     </application>
 
 

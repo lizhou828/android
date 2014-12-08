@@ -30,6 +30,7 @@ public class ContextMenuActivity extends ListActivity {
 
         //ListView 的所有Item注册ContextMenu
         registerForContextMenu(getListView());
+
         //这里的registerForContextMenu()也可以用下面的语句替代
         //getListView().setOnCreateContextMenuListener(this);
     }
