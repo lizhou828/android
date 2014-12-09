@@ -22,8 +22,11 @@ public class MyActivity extends Activity implements View.OnClickListener {
         Button button2 = (Button)findViewById(R.id.db_page_button);
         button2.setOnClickListener(this);
 
-        Button button3 = (Button)findViewById(R.id.ormlite_crud_button);
+        Button button3 = (Button)findViewById(R.id.sqlite_introduce_button);
         button3.setOnClickListener(this);
+
+        Button button4 = (Button)findViewById(R.id.ormlite_crud_button);
+        button4.setOnClickListener(this);
 
     }
 
@@ -36,6 +39,9 @@ public class MyActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.db_page_button :
                 startActivity(new Intent(MyActivity.this,DBListPageActivity.class));
+                break;
+            case R.id.sqlite_introduce_button :
+                startActivity(new Intent(MyActivity.this,SQLiteIntroActivity.class));
                 break;
             case R.id.ormlite_crud_button :
                 startActivity(new Intent(MyActivity.this, MainActivity.class));

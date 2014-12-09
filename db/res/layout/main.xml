@@ -16,6 +16,12 @@
                 android:layout_width="fill_parent"
                 android:text="SQLite CRUD(原生代码)"
                 />
+        <Button android:id="@+id/sqlite_introduce_button"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="SQLite介绍(简单实现登录注册)"
+                />
+
         <Button android:id="@+id/ormlite_crud_button"
                 android:layout_height="wrap_content"
                 android:layout_width="fill_parent"
