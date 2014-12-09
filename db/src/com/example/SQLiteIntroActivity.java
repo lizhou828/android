@@ -3,9 +3,13 @@ package com.example;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+import com.example.service.UserService;
 
 /**
  * Created with IntelliJ IDEA.
@@ -54,6 +58,40 @@ public class SQLiteIntroActivity extends Activity {
             }
         });
 
+        login();
+
+    }
+
+    private void login() {
+        final EditText username = (EditText)findViewById(R.id.user_name);
+        final EditText password = (EditText)findViewById(R.id.pass_word);
+        Button loginButton = (Button)findViewById(R.id.login_button);
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                UserService userService = new UserService(SQLiteIntroActivity.this);
+                String name = username.getText().toString();
+                //检查用户是否存在
+                Boolean exist = userService.userExists(name);
+                if (!exist){
+                    Log.i("msg","用户不存在!");
+                    Toast.makeText(SQLiteIntroActivity.this,"用户不存在!",Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                String pass = password.getText().toString();
+                Log.i("msg",name+"_"+pass);
+
+                Boolean flag = userService.login(name,pass);
+                if (flag){
+                    Log.i("msg","登录成功");
+                    Toast.makeText(SQLiteIntroActivity.this,"登录成功",Toast.LENGTH_SHORT).show();
+                }else{
+                    Log.i("msg","密码错误");
+                    Toast.makeText(SQLiteIntroActivity.this,"密码错误",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
 
     }
 }

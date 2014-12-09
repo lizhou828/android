@@ -14,7 +14,7 @@
         <Button android:id="@+id/sqlite_crud_button"
                 android:layout_height="wrap_content"
                 android:layout_width="fill_parent"
-                android:text="SQLite CRUD(原生代码)"
+                android:text="SQLite(底层原生代码,类似Java的JDBC)"
                 />
         <Button android:id="@+id/sqlite_introduce_button"
                 android:layout_height="wrap_content"

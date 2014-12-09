@@ -24,6 +24,7 @@
                       android:layout_height="wrap_content"
                     />
             <EditText android:id="@+id/user_name"
+                    android:hint="请输入用户名!"
                     android:layout_height="wrap_content"
                     android:layout_width="fill_parent"/>
         </LinearLayout>
@@ -35,9 +36,9 @@
                       android:layout_height="wrap_content"/>
             <EditText android:layout_height="wrap_content"
                       android:layout_width="fill_parent"
+                      android:hint="请输入密码!"
                       android:password="true"
-                      android:id="@+id/pass_word"
-                    />
+                      android:id="@+id/pass_word"/>
         </LinearLayout>
 
         <LinearLayout android:layout_width="fill_parent"

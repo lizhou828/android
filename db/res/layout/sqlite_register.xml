@@ -24,6 +24,7 @@
                       android:layout_height="wrap_content"
                     />
             <EditText android:id="@+id/user_name"
+                      android:hint="请输入用户名!"
                       android:layout_height="wrap_content"
                       android:layout_width="fill_parent"/>
         </LinearLayout>
@@ -38,7 +39,7 @@
                       android:layout_width="fill_parent"
                       android:password="true"
                       android:id="@+id/pass_word"
-                    />
+                      android:hint="请输入密码!"/>
         </LinearLayout>
 
         <LinearLayout android:layout_width="fill_parent"
@@ -48,8 +49,7 @@
                       android:layout_height="wrap_content"/>
             <EditText android:layout_height="wrap_content"
                       android:layout_width="fill_parent"
-                      android:id="@+id/age"
-                    />
+                      android:id="@+id/age"/>
         </LinearLayout>
 
         <LinearLayout android:layout_width="fill_parent"
@@ -66,13 +66,35 @@
                       android:layout_width="wrap_content"
                       android:textOn="已婚"
                       android:textOff="未婚"
-                      android:id="@+id/toggle_button"
+                      android:id="@+id/married"
                     />
+        </LinearLayout>
+
+        <LinearLayout
+                      android:layout_marginTop="10dip"
+                      android:layout_marginBottom="10dip"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+            <TextView android:text="性  别:"
+                      android:layout_width="60dip"
+                      android:height="35dip"
+                      android:layout_height="wrap_content"/>
+            <RadioGroup android:layout_height="fill_parent" android:id="@+id/gender" android:layout_width="fill_parent"
+
+                        android:orientation="horizontal">
+                <RadioButton android:layout_height="wrap_content"
+                              android:layout_width="wrap_content"
+                              android:text="男"
+                              android:id="@+id/male"/>
+                <RadioButton android:layout_height="wrap_content"
+                             android:layout_width="wrap_content"
+                             android:text="女"
+                             android:id="@+id/female"/>
+            </RadioGroup>
         </LinearLayout>
 
         <LinearLayout android:layout_width="fill_parent"
                       android:layout_height="fill_parent" android:orientation="horizontal" android:gravity="center_horizontal">
-
             <Button android:text="注  册"
                     android:background="@drawable/login_button"
                     android:layout_width="wrap_content"

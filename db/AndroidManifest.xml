@@ -3,7 +3,7 @@
           package="com.example"
           android:versionCode="1"
           android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="7"/>
+    <uses-sdk android:minSdkVersion="8"/>
     <application android:label="@string/app_name" android:icon="@drawable/icon">
         <activity android:name="MyActivity"
                   android:label="@string/app_name">
@@ -12,6 +12,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
 
 
 
@@ -26,8 +27,12 @@
         <activity android:name="com.example.ORMLite.MainActivity"/>
         <activity android:name="com.example.ORMLite.StudentListActivity"/>
 
+        <!--<uses-library android:name="android.test"></uses-library>-->
+        <!--<uses-library android:name="junit.runner"/>-->
     </application>
-
+     <!--<instrumentation android:name="android.test.InstrumentationTestRunner"-->
+                      <!--android:targetPackage="com.example"-->
+             <!--android:label="Tests for db module"/>-->
 
     <!--拨打电话的权限-->
     <uses-permission android:name="android.permission.CAll_PHONE"/>
