@@ -97,62 +97,7 @@
     <favorites_list name="android" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="RegisterActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/src/com/example/RegisterActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="121" selection-start="1752" selection-end="1752" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1803#2344#0" expanded="true" />
-                <element signature="e#2333#2334#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/src/com/example/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="93" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.5907859">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQLiteIntroActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/src/com/example/SQLiteIntroActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="114" selection-start="3728" selection-end="3728" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2950#4024#0" expanded="true" />
-                <element signature="e#4013#4014#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqlite_login.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/res/layout/sqlite_login.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="45" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqlite_register.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/res/layout/sqlite_register.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="48" selection-start="1106" selection-end="1115" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -173,7 +118,6 @@
         <option value="$PROJECT_DIR$/db/src/com/example/MyActivity.java" />
         <option value="$PROJECT_DIR$/db/res/drawable/login_button.xml" />
         <option value="$PROJECT_DIR$/db/res/layout/register.xml" />
-        <option value="$PROJECT_DIR$/db/res/layout/sqlite_login.xml" />
         <option value="$PROJECT_DIR$/db/src/com/example/service/DataBaseHelper.java" />
         <option value="$PROJECT_DIR$/db/src/com/example/model/User.java" />
         <option value="$PROJECT_DIR$/db/res/layout/main.xml" />
@@ -185,6 +129,7 @@
         <option value="$PROJECT_DIR$/db/src/com/example/service/UserService.java" />
         <option value="$PROJECT_DIR$/db/src/com/example/SQLiteIntroActivity.java" />
         <option value="$PROJECT_DIR$/db/src/com/example/RegisterActivity.java" />
+        <option value="$PROJECT_DIR$/db/res/layout/sqlite_login.xml" />
       </list>
     </option>
   </component>
@@ -245,16 +190,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -320,7 +255,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.db">
+  <component name="RunManager" selected="Android Application.net">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -477,9 +412,25 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="net" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="net" />
+      <option name="ACTIVITY_CLASS" value="com.example.MyActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Android Application.widget" />
       <item index="1" class="java.lang.String" itemvalue="Android Application.db" />
+      <item index="2" class="java.lang.String" itemvalue="Android Application.net" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -544,7 +495,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.722973" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -553,7 +504,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3108108" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33277026" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4664372" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20833333" sideWeight="0.24956971" order="2" side_tool="true" content_ui="tabs" />
@@ -565,7 +516,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.6706081" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.722973" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39939025" sideWeight="0.722973" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17606707" sideWeight="0.6672297" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15396342" sideWeight="0.6706081" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2483108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -731,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/res/layout/sqlite_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="45" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files (x86)/android-sdk-windows/platforms/android-7/sources/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="411" column="0" selection-start="14493" selection-end="14493" vertical-scroll-proportion="0.33333334">
@@ -752,13 +696,6 @@
             <element signature="e#4309#4716#0" expanded="true" />
             <element signature="e#4709#4710#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/res/layout/sqlite_register.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="48" selection-start="1106" selection-end="1115" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,10 +729,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/src/com/example/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="93" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.5907859">
+        <state line="63" column="49" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/res/layout/sqlite_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="68" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/res/layout/sqlite_register.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="48" selection-start="1106" selection-end="1115" vertical-scroll-proportion="0.30035335">
+          <folding />
         </state>
       </provider>
     </entry>
