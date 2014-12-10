@@ -49,6 +49,14 @@ public class DBListPageActivity extends Activity{
             }
         });
 
+        Button contentProviderButton = (Button)findViewById(R.id.content_provider_button);
+        contentProviderButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity( new Intent(DBListPageActivity.this, PhoneContactsActivity.class));
+            }
+        });
+
 
 
 

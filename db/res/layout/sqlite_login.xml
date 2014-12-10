@@ -23,10 +23,6 @@
                       android:layout_width="50dip"
                       android:layout_height="wrap_content"
                     />
-            <RelativeLayout android:layout_height="fill_parent"
-                            android:layout_width="fill_parent">
-
-            </RelativeLayout>
             <EditText android:id="@+id/user_name"
                     android:hint="请输入用户名!"
                     android:layout_height="wrap_content"

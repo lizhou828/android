@@ -32,10 +32,8 @@ public class UserService {
         }
         String sql = "select * from user where username=?";
         Cursor cursor = databaseRead.rawQuery(sql, new String[]{username});
-        if( cursor.moveToFirst() ){
-            cursor.close();
-            return true;
-        }
+        if( cursor.moveToFirst() )  return true;
+        cursor.close();
         return  false;
     }
 
