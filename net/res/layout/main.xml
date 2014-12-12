@@ -9,5 +9,10 @@
             android:layout_height="wrap_content"
             android:text="Hello World, MyActivity"
             />
+    <Button android:id="@+id/net_web_service"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="WebService(天气预报接口调用)"
+            />
 </LinearLayout>
 
