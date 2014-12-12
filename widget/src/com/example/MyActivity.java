@@ -18,6 +18,8 @@ public class MyActivity extends Activity {
         setContentView(R.layout.main);
         getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE,R.layout.head);
 
+
+
         showCommonSensePage();
         showFiveCommonLayout();
         showLayoutAdvancePage();
