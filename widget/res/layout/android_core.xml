@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <Button android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/core_intent_intro"
+            android:text="Intent(简介)"
+            />
+    <Button android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/core_intent_broadcast"
+            android:text="Intent(广播BroadCast事件)"
+            />
+    <Button android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/core_intent_service"
+            android:text="Intent(与Service交互)"
+            />
+</LinearLayout>

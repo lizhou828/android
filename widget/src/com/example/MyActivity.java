@@ -28,8 +28,19 @@ public class MyActivity extends Activity {
         showStartActivityForResultDemoPage();
         showHorizonVerticalPage();
         showNotifyPage();
+        showAndroidCorePage();
 
 
+    }
+
+    private void showAndroidCorePage() {
+        Button button = (Button)findViewById(R.id.android_core);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MyActivity.this,AndroidCorePageActivity.class));
+            }
+        });
     }
 
     private void showCommonSensePage() {

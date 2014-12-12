@@ -73,5 +73,10 @@
                 android:layout_width="fill_parent"
                 android:text="消息通知"
                 />
+        <Button android:id="@+id/android_core"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="android核心"
+                />
     </LinearLayout>
 </ScrollView>
