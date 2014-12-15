@@ -32,6 +32,10 @@ public class MyActivity extends Activity {
         showNotifyPage();
         showAndroidCorePage();
 
+        //check for updating
+        UpdateManager updateManager = new UpdateManager(this);
+        updateManager.checkUpdateInfo();
+
 
     }
 

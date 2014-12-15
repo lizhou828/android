@@ -98,47 +98,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AndroidCorePageActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/widget/src/com/example/AndroidCorePageActivity.java">
+      <file leaf-file-name="MyProgressBar.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/widget/src/com/example/MyProgressBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="62" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+            <state line="55" column="42" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="progress_bar.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/widget/res/layout/progress_bar.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="37" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/widget/src/com/example/MyActivity.java">
+      <file leaf-file-name="ProgressBarActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/widget/src/com/example/ProgressBarActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="8" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="42" column="81" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#853#1103#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+                <element signature="e#1415#2065#0" expanded="true" />
+                <element signature="e#1535#2031#0" expanded="true" />
+                <element signature="e#2012#2013#0" expanded="true" />
+                <element signature="e#2054#2055#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdateManager.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="UpdateManager.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/widget/src/com/example/UpdateManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="73" selection-start="123" selection-end="179" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/widget/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="100" selection-start="916" selection-end="916" vertical-scroll-proportion="0.71387285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="android_core.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/widget/res/layout/android_core.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="71" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="131" column="75" selection-start="4376" selection-end="4376" vertical-scroll-proportion="0.3515901">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2325#4192#0" expanded="true" />
+                <element signature="e#4185#4186#0" expanded="true" />
+                <element signature="e#4604#4830#0" expanded="true" />
+                <element signature="e#4819#4820#0" expanded="true" />
+                <element signature="e#4874#5062#0" expanded="true" />
+                <element signature="e#5051#5052#0" expanded="true" />
+                <element signature="e#5560#5786#0" expanded="true" />
+                <element signature="e#5775#5776#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,22 +170,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/net/src/com/example/WeatherForecastActivity.java" />
-        <option value="$PROJECT_DIR$/net/src/com/example/MyActivity.java" />
-        <option value="$PROJECT_DIR$/widget/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/widget/src/com/example/IntentIntroActivity.java" />
         <option value="$PROJECT_DIR$/widget/res/layout/sms.xml" />
         <option value="$PROJECT_DIR$/widget/src/com/example/SMSReceiveActivity.java" />
         <option value="$PROJECT_DIR$/widget/src/com/example/IntentBroadcastActivity.java" />
         <option value="$PROJECT_DIR$/widget/res/layout/intent_broadcast.xml" />
         <option value="$PROJECT_DIR$/widget/src/com/example/SMSBroadCastReceiver.java" />
-        <option value="$PROJECT_DIR$/widget/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/widget/src/com/example/AndroidCorePageActivity.java" />
         <option value="$PROJECT_DIR$/widget/res/layout/android_core.xml" />
-        <option value="$PROJECT_DIR$/widget/src/com/example/MyActivity.java" />
-        <option value="$PROJECT_DIR$/widget/src/com/example/UpdateManager.java" />
         <option value="$PROJECT_DIR$/widget/res/values-zh-rCN/strings.xml" />
         <option value="$PROJECT_DIR$/widget/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/widget/src/com/example/MyActivity.java" />
+        <option value="$PROJECT_DIR$/widget/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/widget/res/layout/progress.xml" />
+        <option value="$PROJECT_DIR$/widget/res/layout/progress_bar.xml" />
+        <option value="$PROJECT_DIR$/widget/src/com/example/ProgressBarActivity.java" />
+        <option value="$PROJECT_DIR$/widget/src/com/example/MyProgressBar.java" />
+        <option value="$PROJECT_DIR$/widget/src/com/example/UpdateManager.java" />
       </list>
     </option>
   </component>
@@ -186,8 +196,10 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1360" />
-    <option name="height" value="738" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1376" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -269,43 +281,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values-zh-rCN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -614,7 +594,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1360" height="738" extended-state="0" />
+    <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.722973" order="8" side_tool="false" content_ui="tabs" />
@@ -623,19 +603,19 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35416666" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4341216" sideWeight="0.73363775" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4664372" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3716216" sideWeight="0.24809742" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20833333" sideWeight="0.24956971" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.722973" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3766892" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3716216" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38175675" sideWeight="0.74657536" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.5608108" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.722973" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39939025" sideWeight="0.722973" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22727273" sideWeight="0.6458333" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22983257" sideWeight="0.6182432" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2483108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -739,93 +719,136 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/widget/src/com/example/IntentIntroActivity.java">
+    <entry file="file://D:/Program Files (x86)/android-sdk-windows/platforms/android-7/sources/org/apache/harmony/luni/platform/IFileSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="22" selection-start="1698" selection-end="1698" vertical-scroll-proportion="1.1416185" />
+        <state line="49" column="69" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.59183675">
+          <folding>
+            <element signature="e#0#3804#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/layout/sms.xml">
+    <entry file="file://D:/Program Files (x86)/android-sdk-windows/platforms/android-7/sources/java/io/FileOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.3877551" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htmlUI/src/com/example/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="0.67052025" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/layout/intent_broadcast.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="837" selection-end="837" vertical-scroll-proportion="0.9240122" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/src/com/example/IntentBroadcastActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="74" selection-start="2629" selection-end="2629" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files (x86)/android-sdk-windows/platforms/android-7/sources/android/telephony/SmsMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="61" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.40282685" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/src/com/example/SMSReceiveActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="81" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/src/com/example/SMSBroadCastReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="114" selection-start="2141" selection-end="2141" vertical-scroll-proportion="0.0" />
+        <state line="91" column="0" selection-start="3464" selection-end="3464" vertical-scroll-proportion="0.1734104">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/widget/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="14" selection-start="5455" selection-end="5455" vertical-scroll-proportion="0.74864376" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/src/com/example/AndroidCorePageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="62" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/layout/android_core.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="71" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+        <state line="8" column="7" selection-start="350" selection-end="350" vertical-scroll-proportion="0.42339832">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/widget/src/com/example/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" />
+        <state line="34" column="61" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/src/com/example/AndroidCorePageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="62" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/res/layout/progress.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="34" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/android-sdk-windows/platforms/android-7/sources/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1959" column="25" selection-start="71204" selection-end="71204" vertical-scroll-proportion="0.35492957">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/android-sdk-windows/platforms/android-7/sources/android/widget/ProgressBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="846" column="81" selection-start="27768" selection-end="27768" vertical-scroll-proportion="-2.8529413">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/src/com/example/CommonWidgetListPageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="76" selection-start="6619" selection-end="6619" vertical-scroll-proportion="0.16176471">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/android-sdk-windows/platforms/android-7/sources/android/graphics/Canvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1261" column="23" selection-start="52236" selection-end="52236" vertical-scroll-proportion="0.16470589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/android-sdk-windows/platforms/android-7/sources/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="0" selection-start="3958" selection-end="3958" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/android-sdk-windows/platforms/android-7/sources/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6742" column="0" selection-start="248684" selection-end="248684" vertical-scroll-proportion="0.3322785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/src/com/example/MyProgressBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="42" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/res/layout/progress_bar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="37" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/src/com/example/ProgressBarActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="81" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#853#1103#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1415#2065#0" expanded="true" />
+            <element signature="e#1535#2031#0" expanded="true" />
+            <element signature="e#2012#2013#0" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/widget/src/com/example/UpdateManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="73" selection-start="123" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/values-zh-rCN/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="59" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="100" selection-start="916" selection-end="916" vertical-scroll-proportion="0.71387285">
-          <folding />
+        <state line="131" column="75" selection-start="4376" selection-end="4376" vertical-scroll-proportion="0.3515901">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2325#4192#0" expanded="true" />
+            <element signature="e#4185#4186#0" expanded="true" />
+            <element signature="e#4604#4830#0" expanded="true" />
+            <element signature="e#4819#4820#0" expanded="true" />
+            <element signature="e#4874#5062#0" expanded="true" />
+            <element signature="e#5051#5052#0" expanded="true" />
+            <element signature="e#5560#5786#0" expanded="true" />
+            <element signature="e#5775#5776#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -16,12 +16,15 @@
               android:layout_width="wrap_content"
               android:text="水平进度条"
             />
-    <ProgressBar android:id="@+id/progress_bar_horizontal"
+    <Button android:id="@+id/btn_go"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="测试进度条（动态百分比）"
+            />
+    <com.example.MyProgressBar android:id="@+id/progress_bar_horizontal"
                  style="?android:attr/progressBarStyleHorizontal"
                  android:layout_height="wrap_content"
                  android:layout_width="200dip"
                  android:max="100"
-                 android:progress="50"
-                 android:secondaryProgress="75"
             />
 </LinearLayout>
