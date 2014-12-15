@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">记账本</string>
+    <string name="welcome_words">你好，欢迎进入android世界</string>
+    <string name="explanation">
+        这是我的第一个安卓应用：记账本。邮箱：Email:lizhou828@126.com
+    </string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="frame_layout_demo_words">这是一个FrameLayout的示例页面！</string>
+    <string name="all_country">请选择国家</string>
+
+    <string name="main_news">消息</string>
+    <string name="main_home">首页</string>
+    <string name="more">更多</string>
+    <string name="main_manage_date">时间</string>
+    <string name="main_friends">好友</string>
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="hello">你好</string>
+
+</resources>
