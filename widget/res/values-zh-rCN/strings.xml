@@ -23,5 +23,7 @@
     <string name="xlistview_footer_hint_normal">查看更多</string>
     <string name="xlistview_footer_hint_ready">松开载入更多</string>
     <string name="hello">你好</string>
+    <string name="music_start">播放</string>
+    <string name="music_stop">停止</string>
 
 </resources>

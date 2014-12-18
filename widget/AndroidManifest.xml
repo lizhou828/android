@@ -80,7 +80,7 @@
         <activity android:name="BigImageActivity"></activity>
 
         <activity android:name="DialogPageActivity"></activity>
-		 <activity android:name="TabDemoActivity"></activity>
+		<activity android:name="TabDemoActivity"></activity>
         <activity android:name="OptionMenuActivity"></activity>
         <activity android:name="MenuListPageActivity" android:theme="@style/custom_title_style"></activity>
         <activity android:name="OptionMenuCustomActivity"></activity>
@@ -89,16 +89,28 @@
         <activity android:name="SubMenuActivity"></activity>
         <activity android:name="SubStartActivityForResultDemoPageActivity"></activity>
         <activity android:name="StartActivityForResultDemoPageActivity"></activity>
-        <activity android:name="HorizonVerticalPageActivity" android:screenOrientation="sensor" android:configChanges="orientation|keyboardHidden">
-        </activity>
+        <activity android:name="HorizonVerticalPageActivity"
+                   android:screenOrientation="sensor"
+                   android:configChanges="orientation|keyboardHidden"></activity>
 
         <activity android:name="NotifyPageActivity"></activity>
         <activity android:name="NotifyResultActivity"></activity>
 
+        <!--Android core-->
         <activity android:name="AndroidCorePageActivity"></activity>
         <activity android:name="IntentIntroActivity"/>
         <activity android:name=".IntentBroadcastActivity"/>
+        <activity android:name=".MusicServiceActivity"></activity>
         <activity android:name=".SMSReceiveActivity"></activity>
+
+
+
+
+
+        <!--Service-->
+        <service android:name=".MyDemoService" android:enabled="true"></service>
+
+        <!--Receiver-->
         <receiver android:name=".SMSBroadCastReceiver">
             <intent-filter android:priority="1000">
                 <action android:name="android.provider.Telephony.SMS_RECEIVED"/>

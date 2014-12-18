@@ -2,14 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="fill_parent"
               android:layout_height="wrap_content"
-              android:orientation="horizontal"
-              android:layout_gravity="center_vertical">
+              android:orientation="horizontal">
+
     <ImageView
             android:src="@drawable/icon"
             android:contentDescription="记账本"
             android:gravity="center_vertical"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"/>
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"/>
+
     <TextView android:text="@string/app_name"
               android:layout_width="wrap_content"
               android:layout_height="fill_parent"
@@ -17,11 +19,13 @@
               android:gravity="center_vertical"
               android:textColor="#FFFFFF"
               android:textSize="20sp"/>
-    <TextView android:text="点击列表项即可查询"
-              android:layout_width="wrap_content"
-              android:layout_height="fill_parent"
-              android:layout_marginLeft="10dip"
-              android:gravity="center_vertical"
-              android:textColor="#ABACAC"
-              android:textSize="15sp"/>
+
+    <!--<TextView android:text="点击列表项即可查询"-->
+              <!--android:layout_width="wrap_content"-->
+              <!--android:layout_height="fill_parent"-->
+              <!--android:layout_marginLeft="10dip"-->
+              <!--android:gravity="center_vertical"-->
+              <!--android:textColor="#ABACAC"-->
+              <!--android:textSize="15sp"/>-->
+
 </LinearLayout>

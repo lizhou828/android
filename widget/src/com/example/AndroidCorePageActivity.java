@@ -16,6 +16,7 @@ import android.widget.Button;
 public class AndroidCorePageActivity extends Activity implements View.OnClickListener {
     private Button intentButton;
     private Button intentBroadcast;
+    private Button intentService;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,12 +25,14 @@ public class AndroidCorePageActivity extends Activity implements View.OnClickLis
         initView();
         intentButton.setOnClickListener(this);
         intentBroadcast.setOnClickListener(this);
+        intentService.setOnClickListener(this);
 
     }
 
     private void initView() {
         intentButton =(Button)findViewById(R.id.core_intent_intro);
         intentBroadcast = (Button)findViewById(R.id.core_intent_broadcast);
+        intentService  = (Button)findViewById(R.id.core_intent_service);
     }
 
     @Override
@@ -41,6 +44,8 @@ public class AndroidCorePageActivity extends Activity implements View.OnClickLis
             case R.id.core_intent_broadcast :
                 startActivity( new Intent(AndroidCorePageActivity.this , IntentBroadcastActivity.class));
                 break;
+            case R.id.core_intent_service :
+                startActivity( new Intent(AndroidCorePageActivity.this,MusicServiceActivity.class) );
             default:break;
         }
     }

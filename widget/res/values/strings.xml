@@ -23,5 +23,7 @@
     <string name="xlistview_footer_hint_normal">More</string>
     <string name="xlistview_footer_hint_ready">Loose to load more</string>
     <string name="hello">hello</string>
+    <string name="music_start">Play music</string>
+    <string name="music_stop">Stop music</string>
 
 </resources>
