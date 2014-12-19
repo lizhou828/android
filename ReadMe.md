@@ -1,1 +1,24 @@
-this is my first android program
+This is my first android program
+
+Email:lizhou828@126.com
+
+
+
+Task :
+
+1、net
+    1.1 网络状况
+    1.2 不同网络情况下的图片加载策略
+
+2、登录、退出功能的实现
+
+3、签名、打包
+
+4、代码混淆、安全
+
+5、app与网站端的数据同步
+
+6、多个项目实战
+    6.1 基于百度地图开发的个人移动地图(过去的生活轨迹)
+    6.2 手机信息查看助手
+
