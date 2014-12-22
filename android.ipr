@@ -10,6 +10,8 @@
       <directory url="file://$PROJECT_DIR$/htmlUI/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/db/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/net/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/advance/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
@@ -24,13 +26,11 @@
       <entry name="?*.tld" />
       <entry name="?*.ftl" />
     </wildcardResourcePatterns>
-    <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-    </annotationProcessing>
+    <annotationProcessing enabled="false" useClasspath="true" />
   </component>
-  <component name="CopyrightManager" default="" />
+  <component name="CopyrightManager" default="">
+    <module2copyright />
+  </component>
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
@@ -162,6 +162,8 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/advance/advance.iml" filepath="$PROJECT_DIR$/advance/advance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
       <module fileurl="file://$PROJECT_DIR$/db/db.iml" filepath="$PROJECT_DIR$/db/db.iml" />
       <module fileurl="file://$PROJECT_DIR$/htmlUI/htmlUI.iml" filepath="$PROJECT_DIR$/htmlUI/htmlUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/net/net.iml" filepath="$PROJECT_DIR$/net/net.iml" />
@@ -175,23 +177,8 @@
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="" />
+    <mapping directory="" vcs="Git" />
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
-  <component name="libraryTable">
-    <library name="ormlite-android-4.48-sources">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/db/libs/ormlite-android-4.48.jar!/" />
-        <root url="jar://$PROJECT_DIR$/db/libs/ormlite-core-4.48.jar!/" />
-        <root url="jar://$PROJECT_DIR$/db/libs/ormlite-jdbc-4.48.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/db/libs/ormlite-android-4.48-sources.jar!/" />
-        <root url="jar://$PROJECT_DIR$/db/libs/ormlite-core-4.48-sources.jar!/" />
-        <root url="jar://$PROJECT_DIR$/db/libs/ormlite-jdbc-4.48-sources.jar!/" />
-      </SOURCES>
-    </library>
-  </component>
 </project>
 
