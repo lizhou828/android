@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Window;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,12 +21,16 @@ public class HorizonVerticalPageActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
+        setContentView(R.layout.horizon_vertical);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE,R.layout.head);
+
+
         if(this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE){
             showToast("当前屏幕是横屏");
         }else if(this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT){
             showToast("当前屏幕是竖屏");
         }
-        setContentView(R.layout.horizon_vertical);
         Log.i("--Main--","onCreate");
         textView= (TextView)findViewById(R.id.horizon_vertical_text_view);
         String text = "Android中当屏幕横竖屏切换时，Activity的生命周期是重新加载（说明当前的Activity给销毁了，但又重新执行加载），" +

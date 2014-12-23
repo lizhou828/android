@@ -67,7 +67,7 @@
         <activity android:name="SpinnerActivity"></activity>
         <activity android:name="AutoCompleteTextViewActivity"></activity>
         <activity android:name="DatePickerActivity"></activity>
-        <activity android:name="HtmlPageActivity"></activity>
+        <activity android:name="HtmlPageActivity" android:theme="@style/custom_title_style"></activity>
         <activity android:name="ProgressBarActivity"></activity>
         <activity android:name="SeekBarActivity"></activity>
         <activity android:name="RatingBarActivity"></activity>
@@ -88,16 +88,17 @@
         <activity android:name="ContextMenuActivity"></activity>
         <activity android:name="SubMenuActivity"></activity>
         <activity android:name="SubStartActivityForResultDemoPageActivity"></activity>
-        <activity android:name="StartActivityForResultDemoPageActivity"></activity>
+        <activity android:name="StartActivityForResultDemoPageActivity" android:theme="@style/custom_title_style"></activity>
         <activity android:name="HorizonVerticalPageActivity"
+                   android:theme="@style/custom_title_style"
                    android:screenOrientation="sensor"
                    android:configChanges="orientation|keyboardHidden"></activity>
 
-        <activity android:name="NotifyPageActivity"></activity>
+        <activity android:name="NotifyPageActivity" android:theme="@style/custom_title_style"></activity>
         <activity android:name="NotifyResultActivity"></activity>
 
         <!--Android core-->
-        <activity android:name="AndroidCorePageActivity"></activity>
+        <activity android:name="AndroidCorePageActivity" android:theme="@style/custom_title_style"></activity>
         <activity android:name="IntentIntroActivity"/>
         <activity android:name=".IntentBroadcastActivity"/>
         <activity android:name=".MusicServiceActivity"></activity>

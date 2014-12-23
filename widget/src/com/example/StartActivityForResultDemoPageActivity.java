@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -44,7 +45,11 @@ public class StartActivityForResultDemoPageActivity extends Activity implements 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.main_page);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE,R.layout.head);
+
+
         mText01 = (TextView)findViewById(R.id.mText01);
         mText02 = (TextView)findViewById(R.id.mText02);
         mText01.setText("mText01");

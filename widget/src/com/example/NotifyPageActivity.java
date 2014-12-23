@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -32,7 +33,11 @@ public class NotifyPageActivity extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);    //To change body of overridden methods use File | Settings | File Templates.
+        requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.notify_page);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE,R.layout.head);
+
+
 
         textView = (TextView)findViewById(R.id.notify_page_text_view);
         String text = "notification一般用在电话，短信，邮件，闹钟铃声，在手机的状态栏上就会出现一个小图标，提示用户处理这个通知，这时手从上方滑动状态栏就可以展开并处理这个快讯。已添加的Notification.Builder，使其更容易构建通知。notification是一种让你的应用程序在没有开启情况下或在后台运行警示用户。它是看不见的程序组件(Broadcast Receiver，Service和不活跃的Activity)警示用户有需要注意的事件发生的最好途径。\n" +

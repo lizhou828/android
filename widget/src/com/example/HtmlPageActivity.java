@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Window;
 import android.webkit.WebView;
 import com.example.pojo.Contact;
 import com.example.service.ContactService;
@@ -27,8 +28,13 @@ public class HtmlPageActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.html_page);
-        setTitle("使用Html网页作为界面");
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE,R.layout.head);
+
+
+
+
         webView = (WebView)findViewById(R.id.web_view);
         //webView 设置：允许使用javascript
         webView.getSettings().setJavaScriptEnabled(true);
