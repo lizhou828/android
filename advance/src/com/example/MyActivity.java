@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class MyActivity extends Activity implements View.OnClickListener {
     private Button loadPictureButton;
+    private Button listViewLoadPicButton;
 
     /**
      * Called when the activity is first created.
@@ -19,10 +20,12 @@ public class MyActivity extends Activity implements View.OnClickListener {
 
         initView();
         loadPictureButton.setOnClickListener(this);
+
     }
 
     private void initView() {
         loadPictureButton = (Button)findViewById(R.id.load_picture_button);
+
     }
 
     @Override
