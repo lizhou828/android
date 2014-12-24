@@ -73,9 +73,9 @@ public class LoaderAdapter extends BaseAdapter {
         imageLoader.displayImage(url,viewHolder.imageView,false);
 
         if( !busy ){
-            viewHolder.textView.setText("--"+position+"--IDLE|| TOUCH_SCROLL");
+            viewHolder.textView.setText("这是第"+position+"张图片...");
         }else{
-            viewHolder.textView.setText("--"+position+"--FLING");
+            viewHolder.textView.setText("加载中...");
         }
         return convertView;
     }
