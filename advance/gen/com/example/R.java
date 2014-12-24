@@ -15,8 +15,7 @@ public final class R {
     }
     public static final class id {
         public static final int iv_image=0x7f050000;
-        public static final int list_view_load_picture=0x7f050003;
-        public static final int load_picture_button=0x7f050004;
+        public static final int load_picture_button=0x7f050003;
         public static final int main_lv_list=0x7f050002;
         public static final int tv_tips=0x7f050001;
     }

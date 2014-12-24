@@ -13,11 +13,6 @@
                 android:layout_height="wrap_content"
                 android:text="Hello World, MyActivity"
                 />
-        <Button android:id="@+id/list_view_load_picture"
-                android:layout_height="wrap_content"
-                android:layout_width="fill_parent"
-                />
-
         <Button android:id="@+id/load_picture_button"
                  android:layout_height="wrap_content"
                  android:layout_width="fill_parent"
