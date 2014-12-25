@@ -70,6 +70,7 @@ public class LoaderAdapter extends BaseAdapter {
         String url = "";
         url = urlArrays[position % urlArrays.length];
         viewHolder.imageView.setImageResource(R.drawable.icon);
+        //加载图片
         imageLoader.displayImage(url,viewHolder.imageView,false);
 
         if( !busy ){

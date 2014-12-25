@@ -2,9 +2,12 @@ package com.example;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.AbsListView;
 import android.widget.ListView;
 import com.example.cache.ImageLoader;
+import com.example.util.DeviceHelper;
+
 
 /**
  * Created with IntelliJ IDEA.
@@ -75,6 +78,10 @@ public class LoadPictureActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.load_picture);
         initViews();
+
+
+        boolean  flag = DeviceHelper.isEmulator(this);
+        Log.i(this.getClass().getName(),"是否在模拟器中？result="+flag);
     }
 
     private void initViews() {

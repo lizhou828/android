@@ -6,6 +6,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Log;
 import android.widget.ImageView;
+import com.example.util.DeviceHelper;
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -39,7 +40,7 @@ public class ImageLoader {
         executorService = Executors.newFixedThreadPool(5);
     }
 
-    //最主要的方法
+    //加载图片，最主要的方法
     public void displayImage( String url,ImageView imageView,Boolean isLoadOnlyForCache ){
         imageViewMap.put(imageView,url);
 
@@ -47,6 +48,7 @@ public class ImageLoader {
         Bitmap bitmap = memoryCache.get(url);
         if( bitmap != null ){
             imageView.setImageBitmap( bitmap );
+            Log.i("ImageLoader","该图片,url="+url+",find it in memoryCache....");
         //若没有，则开启新线程加载图片
         }else if( !isLoadOnlyForCache ){
             queueImage(url,imageView);
@@ -128,8 +130,14 @@ public class ImageLoader {
         //从文件缓存中查找是否存在
         Bitmap bitmap = null;
         if( file != null && file.exists() ) bitmap = decodeFile( file );
-        if( bitmap != null ) return bitmap;
+        if( bitmap != null ){
+            Log.i("ImageLoader","该图片,url="+url+",find it in fileCache....");
+            return bitmap;
+        }
+        //如果文件缓存中也没有，则去网上下载该图片
         try {
+            Log.i("ImageLoader","该图片,url="+url+",start downloading from Internet....");
+
             URL imageUrl = new URL(url);
             HttpURLConnection connection = (HttpURLConnection)imageUrl.openConnection();
             connection.setConnectTimeout(10000);
@@ -140,10 +148,11 @@ public class ImageLoader {
             copyStream( inputStream,outputStream );
             outputStream.close();
             bitmap = decodeFile(file);
+            Log.i("ImageLoader","该图片,url="+url+",downloaded from Internet....");
             return bitmap;
         } catch (Exception e) {
             e.printStackTrace();
-            Log.e("","getBitmap catch Exception...message="+e.getMessage());
+            Log.i("ImageLoader", "该图片,url=" + url + ",download failed from Internet....\n error = " + e.getMessage());
             return null;
         }
 
