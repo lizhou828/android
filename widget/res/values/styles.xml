@@ -24,4 +24,20 @@
         <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
         <item name="android:layout_weight">1.0</item>
     </style>
+    <style name="custom_login_title" parent="android:Theme">
+        <item name="android:windowTitleSize">45dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/LoginHeaderTitleBackground</item>
+    </style>
+    <style name="LoginHeaderTitleBackground">
+        <item name="android:background">#c40000</item>
+    </style>
+    <style name="login_button">
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_below">@id/login_password</item>
+        <item name="android:background">#f1f1f1</item>
+        <item name="android:text">@string/login</item>
+        <item name="android:radius">5dp</item>
+   </style>
 </resources>

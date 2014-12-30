@@ -31,12 +31,23 @@ public class MyActivity extends Activity {
         showHorizonVerticalPage();
         showNotifyPage();
         showAndroidCorePage();
+        showLoginPage();
 
         //check for updating
         UpdateManager updateManager = new UpdateManager(this);
         updateManager.checkUpdateInfo();
 
 
+    }
+
+    private void showLoginPage() {
+        Button login = (Button)findViewById(R.id.to_login_page_button);
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity( new Intent(MyActivity.this,LoginActivity.class) );
+            }
+        });
     }
 
     private void showAndroidCorePage() {

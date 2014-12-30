@@ -23,7 +23,7 @@
     <!--targetSdkVersion 16 :android version 4.1-->
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="16"/>
     <application android:label="@string/app_name" android:icon="@drawable/icon">
-        <activity android:name="MyActivity" android:label="@string/app_name" android:theme="@style/custom_title_style">
+        <activity android:name="com.example.MyActivity" android:label="@string/app_name" android:theme="@style/custom_title_style">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -104,8 +104,10 @@
         <activity android:name=".MusicServiceActivity"></activity>
         <activity android:name=".SMSReceiveActivity"></activity>
 
+        <activity android:name=".LoginActivity" android:theme="@style/custom_login_title"></activity>
 
-
+        <activity android:name=".StartMethodForActivity" android:theme="@style/custom_title_style"></activity>
+        <activity android:name=".StartMethodForActivity"></activity>
 
 
         <!--Service-->

@@ -25,5 +25,9 @@
     <string name="hello">hello</string>
     <string name="music_start">Play music</string>
     <string name="music_stop">Stop music</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="type_username">Type your username here</string>
+    <string name="type_password">Type your password here</string>
 
 </resources>

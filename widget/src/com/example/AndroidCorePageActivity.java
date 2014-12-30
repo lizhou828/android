@@ -18,6 +18,7 @@ public class AndroidCorePageActivity extends Activity implements View.OnClickLis
     private Button intentButton;
     private Button intentBroadcast;
     private Button intentService;
+    private Button startMethodForActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,13 +31,14 @@ public class AndroidCorePageActivity extends Activity implements View.OnClickLis
         intentButton.setOnClickListener(this);
         intentBroadcast.setOnClickListener(this);
         intentService.setOnClickListener(this);
-
+        startMethodForActivity.setOnClickListener(this);
     }
 
     private void initView() {
         intentButton =(Button)findViewById(R.id.core_intent_intro);
         intentBroadcast = (Button)findViewById(R.id.core_intent_broadcast);
         intentService  = (Button)findViewById(R.id.core_intent_service);
+        startMethodForActivity = (Button)findViewById(R.id.start_methods_for_activity_button);
     }
 
     @Override
@@ -50,6 +52,10 @@ public class AndroidCorePageActivity extends Activity implements View.OnClickLis
                 break;
             case R.id.core_intent_service :
                 startActivity( new Intent(AndroidCorePageActivity.this,MusicServiceActivity.class) );
+                break;
+            case R.id.start_methods_for_activity_button :
+                startActivity( new Intent(AndroidCorePageActivity.this,StartMethodForActivity.class) );
+                break;
             default:break;
         }
     }
