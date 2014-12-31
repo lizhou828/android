@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用法：\n \t android:launchMode='singleTop'
+             \n 解释：\n \t SingleTop:如果任务栈的栈顶已经存在这个activity的实例,不会创建新的activity,
+             而是利用旧的activity实例,调用旧的activity的onNewIntent()方法"
+            />
+        <ImageView
+            android:src="@drawable/single_top"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="275dp"
+            android:layout_height="325dp" />
+    </LinearLayout>
+</ScrollView>

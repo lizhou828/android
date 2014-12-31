@@ -58,7 +58,7 @@ public class SMSBroadCastReceiver extends BroadcastReceiver {
             Log.i("SmsMessage from:",sender);
             Log.i("SmsMessage content:",content);
             Log.i("SmsMessage time :",time);
-            if("5555".equals(sender) ){
+            if("5554".equals(sender) ){
                 Log.i("SmsMessage :","abort");
                 abortBroadcast();
             }

@@ -106,8 +106,12 @@
 
         <activity android:name=".LoginActivity" android:theme="@style/custom_login_title"></activity>
 
+        <!--Four starting methods for Activity -->
         <activity android:name=".StartMethodForActivity" android:theme="@style/custom_title_style"></activity>
-        <activity android:name=".StartMethodForActivity"></activity>
+        <activity android:name=".StandardActivity" android:theme="@style/custom_title_style"></activity>
+        <activity android:name=".SingleTaskActivity" android:theme="@style/custom_title_style"></activity>
+        <activity android:name=".SingleTopActivity" android:theme="@style/custom_title_style"></activity>
+        <activity android:name=".SingleInstanceActivity" android:theme="@style/custom_title_style"></activity>
 
 
         <!--Service-->

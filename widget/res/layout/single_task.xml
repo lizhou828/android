@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="SingleTask：\n\t如果要激活的那个Activity在任务栈中存在该实例，则不需要创建，只需要把此Activity放入栈顶，
+            并把该Activity以上的Activity实例都pop。
+            \n解释:\n\t在任务栈里面只允许一个实例存在,假如02是singleTask,栈里是:01 02 01 03 若此时开启02,则会复用这个已经存在的activity,
+            并且把当前activity上面其他的activity从任务栈里清空!"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/single_task"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="275dp"
+            android:layout_height="325dp" />
+    </LinearLayout>
+</ScrollView>

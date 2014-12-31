@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Standard：\n\t每次激活Activity时(startActivity)，都创建Activity实例，并放入任务栈。
+            \n解释：\n\tStandard是默认的模式，每开始一个activity,就会在栈中加一个activity,相同的也会加,
+            所以加多少个,就要按多少次返回键才能回到最初的界面"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/standard"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="260dp"
+            android:layout_height="325dp" />
+        <TextView
+            android:text=""
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>
