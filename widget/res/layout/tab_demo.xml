@@ -5,22 +5,33 @@
               android:layout_height="fill_parent">
     <TextView android:id="@+id/tab_view_1"
               android:background="@drawable/blue"
-              android:layout_height="fill_parent"
+              android:layout_height="100dp"
               android:layout_width="fill_parent"
               android:text="Tab1"
            />
     <TextView android:id="@+id/tab_view_2"
               android:background="@drawable/red"
-              android:layout_height="fill_parent"
+              android:layout_height="100dp"
               android:layout_width="fill_parent"
               android:text="Tab2"
             />
     <TextView android:id="@+id/tab_view_3"
               android:background="@drawable/green"
-              android:layout_height="fill_parent"
+              android:layout_height="100dp"
               android:layout_width="fill_parent"
               android:text="Tab3"
             />
+    <TextView android:id="@+id/tab_view_4"
+        android:background="@drawable/green"
+        android:layout_height="100dp"
+        android:layout_width="fill_parent"
+        android:text="Tab4"
+        />
+    <TextView android:id="@+id/tab_view_5"
+        android:background="@drawable/green"
+        android:layout_height="100dp"
+        android:layout_width="fill_parent"
+        android:text="Tab5"/>
 
 
 </FrameLayout>

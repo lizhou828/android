@@ -23,6 +23,9 @@ public class TabDemoActivity extends TabActivity {
         tabHost.addTab( tabHost.newTabSpec("tab1").setIndicator("tab1").setContent(R.id.tab_view_1) );
         tabHost.addTab( tabHost.newTabSpec("tab2").setIndicator("tab2").setContent(R.id.tab_view_2) );
         tabHost.addTab( tabHost.newTabSpec("tab3").setIndicator("tab3").setContent(R.id.tab_view_3) );
+        tabHost.addTab( tabHost.newTabSpec("tab4").setIndicator("tab4").setContent(R.id.tab_view_4) );
+        tabHost.addTab( tabHost.newTabSpec("tab5").setIndicator("tab5").setContent(R.id.tab_view_5) );
+        tabHost.setCurrentTab(R.id.tab_view_1);
 
 
     }
