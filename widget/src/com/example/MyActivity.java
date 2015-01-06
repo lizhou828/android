@@ -1,13 +1,31 @@
 package com.example;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
 public class MyActivity extends Activity {
+    //监听退出对话框中的button点击事件
+    private DialogInterface.OnClickListener listener = new DialogInterface.OnClickListener() {
+        @Override
+        public void onClick(DialogInterface dialogInterface, int which) {
+            switch(which){
+                case AlertDialog.BUTTON_POSITIVE:finish();  //确定退出“按钮”
+                    break;
+                case AlertDialog.BUTTON_NEGATIVE :   //取消退出“按钮”
+                    break;
+                default:break;
+            }
+        }
+    };
+
     /**
      * Called when the activity is first created.
      */
@@ -191,8 +209,63 @@ public class MyActivity extends Activity {
     }
 
 
+    /**
+     * 监听Back键的两种方法，请勿一起使用
+     *监听按下Back键事件:方法1
+     *  super.onBackPressed();会自动调用finish()方法，关闭当前Activity
+     *  若要屏蔽Back键，注释掉该行代码即可
+     */
+//    @Override
+//    public void onBackPressed() {
+//        super.onBackPressed();
+//        Log.i(this.getClass().getName(),"You press the back button");
+//    }
 
 
+    /**
+     * 监听按下Back键事件：方法2
+     * @param keyCode
+     * @param event
+     * @return
+     */
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if(keyCode == KeyEvent.KEYCODE_BACK){
+            Log.i(this.getClass().getName(),"You press the back button");
+            AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+            alertDialog.setTitle("系统提示:");
+            alertDialog.setMessage("您确定要退出吗?");
+            alertDialog.setButton("确定",listener);
+            alertDialog.setButton2("取消", listener);
 
+//            Sources code:
+//            @Deprecated
+//            public void setButton(CharSequence text, final OnClickListener listener) {
+//                setButton(BUTTON_POSITIVE, text, listener);
+//            }
+//            public void setButton2(CharSequence text, final OnClickListener listener) {
+//                setButton(BUTTON_NEGATIVE, text, listener);
+//            }
+//            public void setButton3(CharSequence text, final OnClickListener listener) {
+//                setButton(BUTTON_NEUTRAL, text, listener);
+//            }
 
+            alertDialog.show();
+            return false;
+        }else{
+            return super.onKeyDown(keyCode, event);
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i(this.getClass().getName(),"onDestroy is running....");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.i(this.getClass().getName(),"onStop is running...");
+    }
 }
