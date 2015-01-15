@@ -19,6 +19,7 @@ public class AndroidCorePageActivity extends Activity implements View.OnClickLis
     private Button intentBroadcast;
     private Button intentService;
     private Button startMethodForActivity;
+    private Button activityLife;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,7 @@ public class AndroidCorePageActivity extends Activity implements View.OnClickLis
         intentBroadcast.setOnClickListener(this);
         intentService.setOnClickListener(this);
         startMethodForActivity.setOnClickListener(this);
+        activityLife.setOnClickListener(this);
     }
 
     private void initView() {
@@ -39,6 +41,7 @@ public class AndroidCorePageActivity extends Activity implements View.OnClickLis
         intentBroadcast = (Button)findViewById(R.id.core_intent_broadcast);
         intentService  = (Button)findViewById(R.id.core_intent_service);
         startMethodForActivity = (Button)findViewById(R.id.start_methods_for_activity_button);
+        activityLife = (Button)findViewById(R.id.activity_life_button);
     }
 
     @Override
@@ -55,6 +58,9 @@ public class AndroidCorePageActivity extends Activity implements View.OnClickLis
                 break;
             case R.id.start_methods_for_activity_button :
                 startActivity( new Intent(AndroidCorePageActivity.this,StartMethodForActivity.class) );
+                break;
+            case R.id.activity_life_button :
+                startActivity( new Intent(AndroidCorePageActivity.this,ActivityLifeActivity.class));
                 break;
             default:break;
         }

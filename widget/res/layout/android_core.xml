@@ -24,4 +24,10 @@
         android:id="@+id/start_methods_for_activity_button"
         android:text="Activity的4种启动方式(原理解析)"
         />
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/activity_life_button"
+        android:text="Activity的生命周期"
+        />
 </LinearLayout>
